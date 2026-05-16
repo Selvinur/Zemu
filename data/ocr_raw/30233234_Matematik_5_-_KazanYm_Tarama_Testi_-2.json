@@ -1,0 +1,27 @@
+{
+  "testAdi": "30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2",
+  "sayfaSayisi": 3,
+  "gorselHaritasi": {
+    "img-0.jpeg": "data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa0_img0.jpg",
+    "img-1.jpeg": "data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa0_img1.jpg",
+    "img-2.jpeg": "data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa1_img0.jpg",
+    "img-3.jpeg": "data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa2_img0.jpg"
+  },
+  "sayfalar": [
+    {
+      "sayfaNo": 0,
+      "markdown": "YALOVA ÜÇME DEĞERLENDİRME MERKEZİ\nKAZANIM TARAMA TESTİ\nMATEMATİK\nS. Sınıf\n\n1. ![img-0.jpeg](data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa0_img0.jpg)\nYandaki beşgenin adlandırılış aşağıdakilerden hangisidir?\n\nA) ABCED\nB) CDEAB\nC) ABDCE\nD) BAECD\n\n4. Sağlık Bakanlığı Yalova'da yeni bir hastane yapacaktır.\nBakanlığın bu hastane için yapacağı araştırmada aşağıdaki sorulardan hangisi sorulmamalıdır?\n\nA) Bu ilde kaç tane hastane vardır?\nB) Bu ilde yaygın olan hastalıklar hangileridir?\nC) Bu ilde tedavi gören hastaların sayısı ne kadardır?\nD) Bu ilde okul sayısı ne kadardır?\n\n2. ![img-1.jpeg](data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa0_img1.jpg)\nYandaki çokgende aşağıdaki kilerden hangisinin sayısı diğerlerinden farklıdır?\n\nA) İç Açı\nB) Kenar\nC) Köşe\nD) Köşegen\n\n5. Yaz aylarında Yalova'ya gelen turist sayıları aşağıda verilen bilgilere göre sıklık tablosunda gösterilecektir.\n* En çok turist Temmuz ayında gelmiştir.\n* Ağustos ayında gelen turist sayısı Haziran ayında gelen turist sayısından fazladır.\n\nBuna göre bu bilgilere uygun sıklık tablosu aşağıdaki-lerden hangisi olabilir?\n\nA)\n\n[tbl-0.md](tbl-0.md)\n\nB)\n\n[tbl-1.md](tbl-1.md)\n\nC)\n\n[tbl-2.md](tbl-2.md)\n\nD)\n\n[tbl-3.md](tbl-3.md)\n\nS. Sınıf",
+      "gorselSayisi": 2
+    },
+    {
+      "sayfaNo": 1,
+      "markdown": "Matematik\n\nDersim Terme Tevfi\n\n6 ve 7. soruları aşağıdaki grafiğe göre ce-vaplayınız.\n\nGrafik: Beş Günlük Sıcaklık Değerleri Grafiği\n\n![img-2.jpeg](data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa1_img0.jpg)\nSıcaklık (°C)\n\nYukarıda grafikte Yalova'ya ait beş günlük tahmini hava sıcaklıkları gösterilmiştir.\n\n6. En sıcak günün aşağıdaki kilerden hangisi olması beklenmektedir?\n\nA) Perşembe\nB) Çarşamba\nC) Salı\nD) Pazartesi\n\n7. Aşağıdaki kilerden hangisi yanlıştır?\n\nA) Çarşamba gününe ait sıcaklık değeri Pazartesi gününe göre 1 °C fazladır.\nB) Perşembe günü sıcaklığın 15 °C olması beklenmektedir.\nC) Cuma günü sıcaklık değeri önceki günlere göre artacaktır.\nD) En soğuk günün Pazartesi günü olması beklenmektedir.\n\n8. Batuhan'ın geliştirdiği bir bilgisayar programına göre rakamları sıfırdan ve birbirinden farklı iki veya daha fazla basamaklı doğal sayıların yazılma sistemi aşağıdaki gibidir.\n\nSayı → Sayı karenin içine yazılırsa en küçük rakam pay, en büyük rakam paydadır.\n\nSayı → Sayı üçgenin içine yazılırsa en büyük rakam ile en küçük rakam arasındaki fark pay, en küçük rakam paydadır.\n\nÖrneğin:\n74 → 4/7\n61 → 6 - 1/1 = 5/1\n\nBuna göre bu bilgisayar programına girilen\n96 ve 365 sayılarının oluşturduğu kesirlerin toplamı kaçtır?\n\nA) 5/3\nB) 5/2\nC) 4/3\nD) 2\n\nB. Örnü",
+      "gorselSayisi": 1
+    },
+    {
+      "sayfaNo": 2,
+      "markdown": "Matematik\n\nDersim Tüvme Tezi\n\n9. I.  $62\\mathrm{cm} = 620\\mathrm{dm}$\nII.  $560 \\mathrm{~mm} = 56 \\mathrm{~cm}$\nIII.  $109000\\mathrm{m} = 109\\mathrm{km}$\nIV.  $410\\mathrm{dm} = 4100\\mathrm{m}$\n\n# Yukarıdaki eşitliklerden hangisi doğrudur?\n\nA) I ve II\n\nB) II ve III\n\nC) I ve IV\n\nD) II ve IV\n\n10. Beste bilgisayarına boyutu 800 MB (Megabayt) olan bir program yüklemektedir.\n\nBir süre sonra bilgisayarın ekran görüntüsü şekildeki gibi olduğuna göre programın yüklenmeyen kaç MB'lık kısmı kalmıştır?\n\n![img-3.jpeg](data/images/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/sayfa2_img0.jpg)\n\nA) 320 MB\n\nB) 480 MB\n\nC) 720 MB\n\nD) 560 MB\n\n1-B, 2-D, 3-B, 4-D, 5-B, 6-A, 7-C, 8-A, 9-B, 10-B\n\nCEVAP ANAHTARI\n\n8. Sınıf",
+      "gorselSayisi": 1
+    }
+  ]
+}

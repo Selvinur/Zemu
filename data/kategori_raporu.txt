@@ -1,0 +1,21 @@
+============================================================
+KATEGORİ RAPORU
+============================================================
+
+Test: 30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2
+  TEMİZ               :  2 soru  (4, 7)
+  GÖRSEL_İÇERİKLİ     :  6 soru  (1, 2, 3, 6, 9, 10)
+  BOZUK               :  2 soru  (5, 8)
+
+Test: Matematik5-Test-1
+  TEMİZ               :  2 soru  (1, 4)
+  GÖRSEL_İÇERİKLİ     :  1 soru  (8)
+  BOZUK               :  7 soru  (2, 3, 5, 6, 7, 9, 10)
+  EKSİK SORULAR       : 3, 6
+
+----------------------------------------
+GENEL ÖZET
+  Toplam: 20 soru
+  TEMİZ               :  4 (%20)
+  GÖRSEL_İÇERİKLİ     :  7 (%35)
+  BOZUK               :  9 (%45)
