@@ -5,3 +5,5 @@ __pycache__/
 *.pyc
 chandra_output/
 cikti/
+VektorDB/
+kitaplar/

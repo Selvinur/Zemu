@@ -517,6 +517,132 @@
         font-size: 16px;
       }
     }
+
+    /* ── Zemu Yardımcı Karakter ───────────────── */
+    .zemu-widget {
+      position: fixed;
+      right: max(18px, calc(50vw - 550px));
+      bottom: 22px;
+      width: 220px;
+      z-index: 50;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      pointer-events: none;
+    }
+
+    .zemu-widget * {
+      pointer-events: auto;
+    }
+
+    .zemu-character {
+      width: 155px;
+      height: auto;
+      user-select: none;
+      pointer-events: none;
+      filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
+      animation: zemuFloat 3.2s ease-in-out infinite;
+    }
+
+    .zemu-actions {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    #ipucuBtn.zemu-hint-btn,
+    #zemuBtn.zemu-ask-btn {
+      border: 1px solid rgba(180, 124, 252, 0.35);
+      background: linear-gradient(135deg, rgba(124, 92, 252, 0.95), rgba(180, 124, 252, 0.95));
+      color: white;
+      padding: 10px 15px;
+      border-radius: 999px;
+      font-family: inherit;
+      font-size: 13px;
+      font-weight: 700;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(124, 92, 252, 0.28);
+      transition: all 0.2s ease;
+      backdrop-filter: blur(12px);
+    }
+
+    #zemuBtn.zemu-ask-btn {
+      background: rgba(34, 34, 46, 0.92);
+      color: #d8c7ff;
+    }
+
+    #ipucuBtn.zemu-hint-btn:hover,
+    #zemuBtn.zemu-ask-btn:hover {
+      transform: translateY(-2px) scale(1.03);
+      box-shadow: 0 12px 30px rgba(124, 92, 252, 0.38);
+    }
+
+    .zemu-bubble {
+      width: 220px;
+      padding: 14px 16px;
+      border-radius: 18px 18px 6px 18px;
+      background: rgba(26, 26, 36, 0.96);
+      border: 1px solid rgba(180, 124, 252, 0.35);
+      color: #f0f0f5;
+      font-size: 13px;
+      line-height: 1.55;
+      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.35);
+      backdrop-filter: blur(14px);
+      animation: fadeIn 0.25s ease;
+      position: relative;
+    }
+
+    .zemu-bubble::after {
+      content: "";
+      position: absolute;
+      right: 52px;
+      bottom: -7px;
+      width: 14px;
+      height: 14px;
+      background: rgba(26, 26, 36, 0.96);
+      border-right: 1px solid rgba(180, 124, 252, 0.35);
+      border-bottom: 1px solid rgba(180, 124, 252, 0.35);
+      transform: rotate(45deg);
+    }
+
+    .zemu-bubble strong {
+      color: #d8c7ff;
+    }
+
+    @keyframes zemuFloat {
+      0%, 100% {
+        transform: translateY(0);
+      }
+
+      50% {
+        transform: translateY(-7px);
+      }
+    }
+
+    @media (max-width: 900px) {
+      .zemu-widget {
+        right: 12px;
+        bottom: 12px;
+        width: 160px;
+      }
+
+      .zemu-character {
+        width: 105px;
+      }
+
+      .zemu-bubble {
+        width: 180px;
+        font-size: 12px;
+      }
+
+      #ipucuBtn.zemu-hint-btn,
+      #zemuBtn.zemu-ask-btn {
+        font-size: 12px;
+        padding: 9px 12px;
+      }
+    }
   </style>
 </head>
 
@@ -552,8 +678,6 @@
         <button class="btn btn-nav" id="geriBtn" title="Önceki soru">←</button>
         <button class="btn btn-primary" id="kontrolBtn">Kontrol Et</button>
         <button class="btn btn-nav" id="ileriBtn" title="Sonraki soru">→</button>
-        <button id="ipucuBtn">İpucu Al</button>
-        <div id="ipucuKutusu" class="ipucu-kutusu" style="display:none;"></div>
       </div>
 
       <div class="sonuc" id="sonuc"></div>
@@ -575,6 +699,17 @@
     </div>
   </div>
 
+  <div class="zemu-widget">
+    <div id="ipucuKutusu" class="zemu-bubble" style="display:none;"></div>
+    
+    <div class="zemu-actions">
+      <button id="ipucuBtn" class="zemu-hint-btn" type="button">💡 İpucu Al</button>
+      <button id="zemuBtn" class="zemu-ask-btn" type="button" style="display:none;">Zemu'ya Sor ✨</button>
+    </div>
+    
+    <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
+  </div>
+
   <script>
     // ── DOM Elemanları ────────────────────
     const testSelector = document.getElementById("testSelector");
@@ -588,6 +723,7 @@
     const sonucEl = document.getElementById("sonuc");
     const kontrolBtn = document.getElementById("kontrolBtn");
     const ipucuBtn = document.getElementById("ipucuBtn");
+    const zemuBtn = document.getElementById("zemuBtn");
     const ipucuKutusu = document.getElementById("ipucuKutusu");
     const geriBtn = document.getElementById("geriBtn");
     const ileriBtn = document.getElementById("ileriBtn");
@@ -704,6 +840,7 @@
 
       ipucuKutusu.style.display = "none";
       ipucuKutusu.textContent = "";
+      zemuBtn.style.display = "none";
     }
 
     // ── Test Seçimi ──────────────────────
@@ -817,8 +954,22 @@
     ipucuBtn.addEventListener("click", () => {
       if (!soru) return;
 
-      ipucuKutusu.textContent = soru.ipucu || "Bu soru için henüz ipucu yok.";
+      const ipucuMetni = soru.ipucu || "Bu soru için henüz ipucu yok.";
+      ipucuKutusu.innerHTML = `<strong>💡 Zemu'dan ipucu:</strong><br>${markdownToHtml(ipucuMetni)}`;
       ipucuKutusu.style.display = "block";
+      
+      if (soru.ipucu_ai) {
+        zemuBtn.style.display = "inline-block";
+      } else {
+        zemuBtn.style.display = "none";
+      }
+    });
+
+    zemuBtn.addEventListener("click", () => {
+      if (!soru || !soru.ipucu_ai) return;
+
+      ipucuKutusu.innerHTML = `<strong>✨ Zemu açıklıyor:</strong><br>${markdownToHtml(soru.ipucu_ai)}`;
+      zemuBtn.style.display = "none";
     });
 
     // Klavye kısayolları

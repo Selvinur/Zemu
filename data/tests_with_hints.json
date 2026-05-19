@@ -17,7 +17,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q1.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Düzgün bir beşgenin köşelerini adlandırırken harfleri sırayla ve saat yönünde (veya tersi) dizmelisin."
       },
       {
         "soruNo": 2,
@@ -33,7 +34,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q2.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün."
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Bir çokgenin köşegen sayısı, kenar sayısından farklıdır."
       },
       {
         "soruNo": 3,
@@ -49,7 +51,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q3.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler."
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Paralelkenarda karşılıklı açılar birbirine eşit, ardışık açılar ise bütünlerdir."
       },
       {
         "soruNo": 4,
@@ -65,7 +68,8 @@
         "soruGorselPath": null,
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş."
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Hastane yapımıyla ilgili araştırmada, hastane dışındaki diğer kurumlarla ilgili bilgi gereksizdir."
       },
       {
         "soruNo": 5,
@@ -83,7 +87,8 @@
           "D şıkkı boş"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Tablodaki satır ve sütun başlıklarına dikkat et. Verilen bilgileri seçeneklerdeki tabloyla karşılaştır."
+        "ipucu": "Tablodaki satır ve sütun başlıklarına dikkat et. Verilen bilgileri seçeneklerdeki tabloyla karşılaştır.",
+        "ipucu_ai": "Temmuz ayında gelen turist sayısı, diğer aylardan daha fazla olmalıdır."
       },
       {
         "soruNo": 6,
@@ -99,7 +104,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q6.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Sıcaklık değerleri en yüksek olan günü seçmelisin."
       },
       {
         "soruNo": 7,
@@ -115,7 +121,8 @@
         "soruGorselPath": null,
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş."
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Sıcaklık değerlerinin artış ya da azalışına dikkat etmelisin."
       },
       {
         "soruNo": 8,
@@ -136,7 +143,8 @@
           "D şıkkı çok uzun (239 karakter)"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Kare ve üçgen içindeki sayıların rakamlarını bularak kurala uygun kesirleri oluşturmalısın."
       },
       {
         "soruNo": 9,
@@ -152,7 +160,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q9.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğru cevapta verilen birimlerin birbirine dönüşümünde kaydırma yapılmalıdır."
       },
       {
         "soruNo": 10,
@@ -168,7 +177,8 @@
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q10.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Yüklenemeyen kısmı bulmak için toplam boyuttan yüklenen kısmı çıkarmalısın."
       }
     ]
   },
@@ -190,7 +200,8 @@
         "soruGorselPath": null,
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "İşlem önceliğine dikkat et. Önce parantez varsa onu, sonra çarpma-bölme ve toplama-çıkarma işlemlerini yap."
+        "ipucu": "İşlem önceliğine dikkat et. Önce parantez varsa onu, sonra çarpma-bölme ve toplama-çıkarma işlemlerini yap.",
+        "ipucu_ai": "Ondalık sayılarla işlem yaparken virgüllerin aynı hizada olmasına dikkat etmelisin."
       },
       {
         "soruNo": 2,
@@ -208,7 +219,8 @@
           "D şıkkında A) kalıntısı var"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün."
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Depodaki benzin miktarını toplam kapasiteye oranlamalısın."
       },
       {
         "soruNo": 3,
@@ -226,7 +238,8 @@
           "eski parser tarafından çıkarılamadı"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Ondalık kesirleri yüzde olarak yazabilmek için virgülden sonraki basamak sayısını ikiye tamamlamalısın."
       },
       {
         "soruNo": 4,
@@ -242,7 +255,8 @@
         "soruGorselPath": null,
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla."
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Toplam yolun %70'ini metreye çevirmen gerekiyor."
       },
       {
         "soruNo": 5,
@@ -264,7 +278,8 @@
           "D şıkkında A) kalıntısı var"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler."
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Doğru parçasını sembolle gösterirken harflerin köşeli parantez içinde olmasına dikkat etmelisin."
       },
       {
         "soruNo": 6,
@@ -282,7 +297,8 @@
           "eski parser tarafından çıkarılamadı"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Ali'nin konumunu bulmak için Veli'nin bulunduğu noktadan başlayarak birim kareleri saymalısın."
       },
       {
         "soruNo": 7,
@@ -302,7 +318,8 @@
           "C şıkkı boş"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğru parçalarının uzunluklarını karşılaştırmak için kareli zemindeki birim kareleri saymalısın."
       },
       {
         "soruNo": 8,
@@ -318,7 +335,8 @@
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q8.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün."
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İki açının birleşerek oluşturduğu dik açının ölçüsünün 90 derece olduğunu unutmamalısın."
       },
       {
         "soruNo": 9,
@@ -338,7 +356,8 @@
           "C şıkkı boş"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün."
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Açıları adlandırırken harflerin sırası önemli, ortadaki harf açının köşesini temsil eder."
       },
       {
         "soruNo": 10,
@@ -358,7 +377,8 @@
           "C şıkkı boş"
         ],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç."
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğruların birbirine göre durumunu anlamak için kesişim noktalarına bakmalısın."
       }
     ]
   }
