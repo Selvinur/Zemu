@@ -57,10 +57,10 @@ for test in testler:
                 f"data/question_crops/{test_id}/q{soru_no}.png"
             )
             gorsel_baglanan += 1
-            print(f"✓ Soru {soru_no} -> görsel bağlandı")
+            print(f"[OK] Soru {soru_no} -> görsel bağlandı")
         else:
             eksik += 1
-            print(f"X Soru {soru_no} -> görsel bulunamadı: q{soru_no}.png")
+            print(f"[X] Soru {soru_no} -> görsel bulunamadı: q{soru_no}.png")
 
 with open(CIKIS_YOLU, "w", encoding="utf-8") as f:
     json.dump(testler, f, ensure_ascii=False, indent=2)

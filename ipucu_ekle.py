@@ -105,15 +105,40 @@ def asistan_ile_ipucu_al(soru, test_index, soru_index, testler):
 def ana_islem():
     global toplam_islem
     
-    # Kaldığı yerden devam etmesi için önce çıktı dosyasını kontrol et
+    # Her zaman en güncel test ve görsel listesini baz alıyoruz
+    print("Mevcut testler yükleniyor...")
+    with open(GIRIS_YOLU, "r", encoding="utf-8") as f:
+        testler = json.load(f)
+
+    # Eğer önceden üretilmiş ipucu dosyası varsa mevcut ipuçlarını koru
     if CIKIS_YOLU.exists():
-        print("Mevcut ipucu dosyası bulundu, kaldığı yerden devam edilecek...")
+        print("Mevcut ipucu dosyası bulundu, mevcut ipuçları yeni verilerle birleştirilecek...")
         with open(CIKIS_YOLU, "r", encoding="utf-8") as f:
-            testler = json.load(f)
-    else:
-        print("Yeni ipucu dosyası oluşturulacak...")
-        with open(GIRIS_YOLU, "r", encoding="utf-8") as f:
-            testler = json.load(f)
+            eski_testler = json.load(f)
+            
+        # Eski ipuçlarını haritalandır: (testId, soruNo) -> ipuçları
+        eski_ipucu_haritasi = {}
+        for test in eski_testler:
+            t_id = test.get("testId") or test.get("testAdi")
+            for soru in test.get("sorular", []):
+                s_no = soru.get("soruNo")
+                if "ipucu" in soru or "ipucu_ai" in soru:
+                    eski_ipucu_haritasi[(t_id, s_no)] = {
+                        "ipucu": soru.get("ipucu"),
+                        "ipucu_ai": soru.get("ipucu_ai")
+                    }
+                    
+        # Yeni listeye eski ipuçlarını aktar
+        for test in testler:
+            t_id = test.get("testId") or test.get("testAdi")
+            for soru in test.get("sorular", []):
+                s_no = soru.get("soruNo")
+                eski = eski_ipucu_haritasi.get((t_id, s_no))
+                if eski:
+                    if eski.get("ipucu"):
+                        soru["ipucu"] = eski["ipucu"]
+                    if eski.get("ipucu_ai"):
+                        soru["ipucu_ai"] = eski["ipucu_ai"]
 
     # Toplam işlem yapılması gereken soru sayısını hesapla
     islem_gereken_sorular = []
@@ -123,13 +148,16 @@ def ana_islem():
                 islem_gereken_sorular.append((soru, t_idx, s_idx))
                 
     toplam_islem = len(islem_gereken_sorular)
-    print(f"Toplam {toplam_islem} soru için ipucu üretilecek.")
+    print(f"Toplam {toplam_islem} yeni soru için ipucu üretilecek.")
     
     if toplam_islem == 0:
-        print("Tüm soruların zaten ipucu var. İşlem bitti.")
+        # İpuçlarında bir değişiklik yapmasak da, yeni testlerin görsel yollarını içeren tests_with_hints.json'ı kaydetmeliyiz
+        with open(CIKIS_YOLU, "w", encoding="utf-8") as f:
+            json.dump(testler, f, ensure_ascii=False, indent=2)
+        print("Tüm soruların zaten ipucu var. Görsel yolları güncellenerek kaydedildi. İşlem bitti.")
         return
 
-    # Seri işleme (API limitlerine takılmamak için 1.5 saniye bekleme ile)
+    # Seri işleme (API limitlerine takılmamak için bekleme ile)
     for soru, t_idx, s_idx in islem_gereken_sorular:
         try:
             asistan_ile_ipucu_al(soru, t_idx, s_idx, testler)

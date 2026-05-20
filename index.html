@@ -5,27 +5,27 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zemu — Test Çözme</title>
-  <meta name="description" content="Zemu - İnteraktif test çözme platformu" />
+  <meta name="description" content="Zemu - Yapay Zeka Destekli Öğrenme Asistanı" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
   <style>
     :root {
-      --bg-primary: #0f0f13;
-      --bg-card: #1a1a24;
-      --bg-option: #22222e;
-      --bg-option-hover: #2a2a3a;
-      --text-primary: #f0f0f5;
-      --text-secondary: #8888a0;
-      --accent: #7c5cfc;
-      --accent-glow: rgba(124, 92, 252, 0.25);
-      --green: #34d399;
-      --green-bg: rgba(52, 211, 153, 0.12);
-      --red: #f87171;
-      --red-bg: rgba(248, 113, 113, 0.12);
-      --border: rgba(255, 255, 255, 0.06);
-      --radius: 14px;
-      --radius-sm: 10px;
+      --bg-primary: #EEF6FB;
+      --bg-card: #FFFFFF;
+      --bg-option: #FFFFFF;
+      --bg-option-hover: #F8FBFF;
+      --text-primary: #2E3A4A;
+      --text-secondary: #7A8797;
+      --accent: #B9DCFF;
+      --accent-glow: rgba(185, 220, 255, 0.35);
+      --green: #3DBB7D;
+      --green-bg: rgba(61, 187, 125, 0.12);
+      --red: #FF6B7A;
+      --red-bg: rgba(255, 107, 122, 0.12);
+      --border: #E2E8F0;
+      --radius: 20px;
+      --radius-sm: 14px;
     }
 
     * {
@@ -52,18 +52,19 @@
     }
 
     .logo {
-      font-size: 28px;
-      font-weight: 800;
+      font-size: 30px;
+      font-weight: 900;
       letter-spacing: -0.5px;
-      background: linear-gradient(135deg, #7c5cfc, #b47cfc);
+      background: linear-gradient(135deg, #FF8FB3, #FFB6D0);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       margin-bottom: 4px;
     }
 
     .header-sub {
-      color: var(--text-secondary);
-      font-size: 13px;
+      color: #4a5568;
+      font-size: 14px;
+      font-weight: 600;
     }
 
     /* ── Test Seçimi ────────────────── */
@@ -99,6 +100,93 @@
       box-shadow: 0 0 20px var(--accent-glow);
     }
 
+    /* ── Ders Seçimi ────────────────── */
+    .ders-secim-ekrani {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      margin-top: 50px;
+      padding: 0 20px;
+      width: 100%;
+      max-width: 600px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    @media (max-width: 600px) {
+      .ders-secim-ekrani {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .ders-kart {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 40px 30px;
+      font-size: 20px;
+      font-weight: 800;
+      color: var(--text-primary);
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.04);
+      min-width: 220px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .ders-kart:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+      border-color: #FFB6D0;
+    }
+    
+    .ders-kart.disabled {
+      opacity: 0.8;
+    }
+    
+    .ders-kart.disabled:hover {
+      border-color: var(--border);
+      transform: translateY(-2px);
+    }
+    
+    .yakinda-badge {
+      display: block;
+      margin-top: 10px;
+      font-size: 11px;
+      font-weight: 700;
+      color: #FF8FB3;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    
+    .test-actions {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+      width: 100%;
+    }
+    
+    .btn-geri {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+    
+    .btn-geri:hover {
+      background: #F8FBFF;
+      color: var(--text-primary);
+      border-color: #FFB6D0;
+    }
+
     /* ── Kart ────────────────────────── */
     .kart {
       width: 100%;
@@ -107,7 +195,7 @@
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 32px;
-      box-shadow: 0 8px 40px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 12px 40px rgba(122, 184, 245, 0.12);
       position: relative;
       overflow: hidden;
     }
@@ -119,7 +207,7 @@
       left: 0;
       right: 0;
       height: 3px;
-      background: linear-gradient(90deg, #7c5cfc, #b47cfc, #7c5cfc);
+      background: linear-gradient(90deg, #FFB6D0, #FFD1E3, #FFB6D0);
       background-size: 200% 100%;
       animation: shimmer 3s ease-in-out infinite;
     }
@@ -140,7 +228,7 @@
     .progress-bar {
       width: 100%;
       height: 4px;
-      background: rgba(255, 255, 255, 0.05);
+      background: rgba(122, 184, 245, 0.15);
       border-radius: 2px;
       margin-bottom: 20px;
       overflow: hidden;
@@ -148,7 +236,7 @@
 
     .progress-fill {
       height: 100%;
-      background: linear-gradient(90deg, #7c5cfc, #b47cfc);
+      background: linear-gradient(90deg, #FFB6D0, #FFD1E3);
       border-radius: 2px;
       transition: width 0.4s ease;
     }
@@ -224,7 +312,7 @@
       border-radius: var(--radius-sm);
       overflow: hidden;
       border: 1px solid var(--border);
-      background: rgba(255, 255, 255, 0.03);
+      background: rgba(122, 184, 245, 0.03);
     }
 
     .soru-gorsel img {
@@ -237,8 +325,8 @@
       text-align: center;
       color: var(--text-secondary);
       font-size: 14px;
-      background: rgba(255, 255, 255, 0.02);
-      border: 2px dashed rgba(255, 255, 255, 0.08);
+      background: rgba(122, 184, 245, 0.03);
+      border: 2px dashed rgba(122, 184, 245, 0.15);
       border-radius: var(--radius-sm);
       margin-bottom: 20px;
     }
@@ -297,20 +385,20 @@
       border-radius: 8px;
       font-weight: 700;
       font-size: 13px;
-      background: rgba(255, 255, 255, 0.05);
-      color: var(--text-secondary);
+      background: rgba(122, 184, 245, 0.4);
+      color: #2d3748;
       flex-shrink: 0;
       transition: all 0.2s ease;
     }
 
     .secenek.selected {
-      border-color: var(--accent);
-      background: rgba(124, 92, 252, 0.1);
+      border-color: #FFB6D0;
+      background: rgba(255, 182, 208, 0.15);
     }
 
     .secenek.selected .harf {
-      background: var(--accent);
-      color: white;
+      background: #FFB6D0;
+      color: #4A2434;
     }
 
     .secenek.dogru-goster {
@@ -320,7 +408,7 @@
 
     .secenek.dogru-goster .harf {
       background: var(--green);
-      color: #0f0f13;
+      color: #ffffff;
     }
 
     .secenek.yanlis-goster {
@@ -330,7 +418,7 @@
 
     .secenek.yanlis-goster .harf {
       background: var(--red);
-      color: #0f0f13;
+      color: #ffffff;
     }
 
     /* ── Butonlar ────────────────────── */
@@ -357,15 +445,16 @@
     }
 
     .btn-primary {
-      background: linear-gradient(135deg, #7c5cfc, #9d7cfc);
-      color: white;
-      box-shadow: 0 4px 16px var(--accent-glow);
+      background: #FFB6D0;
+      color: #4A2434;
+      font-weight: 700;
+      box-shadow: 0 4px 14px rgba(255, 182, 208, 0.4);
       flex: 1;
     }
 
     .btn-primary:hover:not(:disabled) {
-      transform: translateY(-1px);
-      box-shadow: 0 6px 24px var(--accent-glow);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(255, 182, 208, 0.6);
     }
 
     .btn-nav {
@@ -390,16 +479,16 @@
       margin-top: 14px;
       padding: 14px 16px;
       border-radius: 12px;
-      background: rgba(139, 92, 246, 0.12);
-      border: 1px solid rgba(139, 92, 246, 0.35);
-      color: #ddd;
+      background: rgba(122, 184, 245, 0.12);
+      border: 1px solid rgba(122, 184, 245, 0.35);
+      color: var(--text-primary);
       font-size: 14px;
       line-height: 1.5;
     }
 
     #ipucuBtn {
-      background: #2b2540;
-      color: #ddd;
+      background: #eff5fb;
+      color: var(--text-secondary);
     }
 
     /* ── Sonuç ───────────────────────── */
@@ -447,7 +536,7 @@
       gap: 24px;
       margin-top: 20px;
       padding: 12px;
-      background: rgba(255, 255, 255, 0.02);
+      background: rgba(122, 184, 245, 0.05);
       border-radius: var(--radius-sm);
       border: 1px solid var(--border);
     }
@@ -471,13 +560,22 @@
     .skor-item.dogru-skor .sayi {
       color: var(--green);
     }
+    .skor-item.dogru-skor .etiket {
+      color: #6ee7b7;
+    }
 
     .skor-item.yanlis-skor .sayi {
       color: var(--red);
     }
+    .skor-item.yanlis-skor .etiket {
+      color: #fda4af;
+    }
 
     .skor-item.toplam-skor .sayi {
-      color: var(--accent);
+      color: #f59e0b;
+    }
+    .skor-item.toplam-skor .etiket {
+      color: #fcd34d;
     }
 
     /* ── Yükleniyor ──────────────────── */
@@ -522,8 +620,8 @@
     .zemu-widget {
       position: fixed;
       right: max(18px, calc(50vw - 550px));
-      bottom: 22px;
-      width: 220px;
+      top: 150px;
+      width: 240px;
       z-index: 50;
       display: flex;
       flex-direction: column;
@@ -532,15 +630,36 @@
       pointer-events: none;
     }
 
+    .zemu-widget.welcome-mode {
+      position: relative;
+      top: auto;
+      right: auto;
+      left: auto;
+      bottom: auto;
+      margin-top: 40px;
+      margin-left: calc(50% - 270px);
+      margin-right: auto;
+      width: 240px;
+      align-self: flex-start;
+    }
+
+    @media (max-width: 600px) {
+      .zemu-widget.welcome-mode {
+        margin: 30px auto 0;
+        align-self: center;
+      }
+    }
+
     .zemu-widget * {
       pointer-events: auto;
     }
 
     .zemu-character {
-      width: 155px;
+      width: 180px;
       height: auto;
       user-select: none;
-      pointer-events: none;
+      pointer-events: auto;
+      cursor: grab;
       filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
       animation: zemuFloat 3.2s ease-in-out infinite;
     }
@@ -552,44 +671,58 @@
       flex-wrap: wrap;
     }
 
+    .zemu-mini-bubble {
+      background: white;
+      color: #4A2434;
+      padding: 8px 14px;
+      border-radius: 14px 14px 4px 14px;
+      font-size: 11px;
+      font-weight: 600;
+      text-align: center;
+      max-width: 240px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2px;
+      border: 1.5px solid #FFB6D0;
+      animation: zemuFloat 3.5s ease-in-out infinite reverse;
+    }
+
     #ipucuBtn.zemu-hint-btn,
     #zemuBtn.zemu-ask-btn {
-      border: 1px solid rgba(180, 124, 252, 0.35);
-      background: linear-gradient(135deg, rgba(124, 92, 252, 0.95), rgba(180, 124, 252, 0.95));
-      color: white;
-      padding: 10px 15px;
+      border: 1px solid #FFD978;
+      background: #FFE9A8;
+      color: #7A5A00;
+      padding: 10px 18px;
       border-radius: 999px;
       font-family: inherit;
       font-size: 13px;
       font-weight: 700;
       cursor: pointer;
-      box-shadow: 0 8px 24px rgba(124, 92, 252, 0.28);
+      box-shadow: 0 6px 18px rgba(255, 233, 168, 0.6);
       transition: all 0.2s ease;
-      backdrop-filter: blur(12px);
     }
 
     #zemuBtn.zemu-ask-btn {
-      background: rgba(34, 34, 46, 0.92);
-      color: #d8c7ff;
+      background: #F3E8FF;
+      color: #4C1D95;
+      border: 1px solid #D8B4FE;
     }
 
     #ipucuBtn.zemu-hint-btn:hover,
     #zemuBtn.zemu-ask-btn:hover {
       transform: translateY(-2px) scale(1.03);
-      box-shadow: 0 12px 30px rgba(124, 92, 252, 0.38);
+      box-shadow: 0 10px 24px rgba(255, 233, 168, 0.8);
     }
 
     .zemu-bubble {
       width: 220px;
       padding: 14px 16px;
       border-radius: 18px 18px 6px 18px;
-      background: rgba(26, 26, 36, 0.96);
-      border: 1px solid rgba(180, 124, 252, 0.35);
-      color: #f0f0f5;
+      background: white;
+      border: 1.5px solid #FFB6D0;
+      color: #4A2434;
       font-size: 13px;
       line-height: 1.55;
-      box-shadow: 0 18px 42px rgba(0, 0, 0, 0.35);
-      backdrop-filter: blur(14px);
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
       animation: fadeIn 0.25s ease;
       position: relative;
     }
@@ -601,18 +734,20 @@
       bottom: -7px;
       width: 14px;
       height: 14px;
-      background: rgba(26, 26, 36, 0.96);
-      border-right: 1px solid rgba(180, 124, 252, 0.35);
-      border-bottom: 1px solid rgba(180, 124, 252, 0.35);
+      background: white;
+      border-right: 1.5px solid #FFB6D0;
+      border-bottom: 1.5px solid #FFB6D0;
       transform: rotate(45deg);
     }
 
     .zemu-bubble strong {
-      color: #d8c7ff;
+      color: #f43f5e;
     }
 
     @keyframes zemuFloat {
-      0%, 100% {
+
+      0%,
+      100% {
         transform: translateY(0);
       }
 
@@ -624,12 +759,13 @@
     @media (max-width: 900px) {
       .zemu-widget {
         right: 12px;
+        top: auto;
         bottom: 12px;
         width: 160px;
       }
 
       .zemu-character {
-        width: 105px;
+        width: 130px;
       }
 
       .zemu-bubble {
@@ -649,12 +785,21 @@
 <body>
   <header class="header">
     <div class="logo">Zemu</div>
-    <div class="header-sub">İnteraktif Test Çözme</div>
+    <div class="header-sub">Yapay Zeka Destekli Öğrenme Asistanı</div>
   </header>
 
-  <div class="test-selector" id="testSelector"></div>
+  <!-- Ders Seçimi Ekranı -->
+  <div id="dersSecimEkrani" class="ders-secim-ekrani"></div>
 
-  <div class="kart" id="kart">
+  <!-- Ana Uygulama (Test Seçimi + Kart) -->
+  <div id="anaUygulama" style="display:none; flex-direction: column; align-items: center; width: 100%;">
+    <div class="test-actions">
+      <button class="btn-geri" id="derslereDonBtn">🔙 Derslere Dön</button>
+    </div>
+    
+    <div class="test-selector" id="testSelector"></div>
+
+    <div class="kart" id="kart">
     <div class="yukleniyor" id="yukleniyor">
       <div class="spinner"></div>
       Testler yükleniyor...
@@ -698,15 +843,17 @@
       </div>
     </div>
   </div>
+  </div> <!-- anaUygulama bitiş -->
 
   <div class="zemu-widget">
+    <div class="zemu-mini-bubble">İpucu istersen beraber düşünelim! 💡</div>
     <div id="ipucuKutusu" class="zemu-bubble" style="display:none;"></div>
-    
+
     <div class="zemu-actions">
       <button id="ipucuBtn" class="zemu-hint-btn" type="button">💡 İpucu Al</button>
       <button id="zemuBtn" class="zemu-ask-btn" type="button" style="display:none;">Zemu'ya Sor ✨</button>
     </div>
-    
+
     <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
   </div>
 
@@ -758,10 +905,8 @@
         soru.soruGorselPath &&
         (durum === "BOZUK" || durum === "GÖRSEL_İÇERİKLİ");
 
-      // Soru numarası + kategori badge
-      const badgeClass = durum === "TEMİZ" ? "badge-temiz" : durum === "GÖRSEL_İÇERİKLİ" ? "badge-gorsel" : "badge-bozuk";
-      const badgeLabel = durum === "GÖRSEL_İÇERİKLİ" ? "GÖRSEL" : durum;
-      soruNoEl.innerHTML = `Soru ${soru.soruNo} <span class="kategori-badge ${badgeClass}">${badgeLabel}</span>`;
+      // Soru numarası
+      soruNoEl.innerHTML = `Soru ${soru.soruNo}`;
       soruSayacEl.textContent = `${aktifSoruIndex + 1} / ${aktifTest.sorular.length}`;
 
       // Progress bar
@@ -789,15 +934,15 @@
         } else {
           gorselHtml = `<div class="gorsel-placeholder"><div class="icon">📷</div>Soru görseli henüz eklenmedi<br><small>q${soru.soruNo}.png dosyasını question_crops klasörüne ekleyin</small></div>`;
         }
-        soruMetniEl.innerHTML = `<div class="bozuk-uyari">⚠ Bu sorunun metni düzgün okunamadı. Orijinal soru görseline bakarak cevaplayın.</div>${gorselHtml}`;
+        soruMetniEl.innerHTML = gorselHtml;
       }
       else if (durum === "GÖRSEL_İÇERİKLİ") {
-        // GÖRSEL_İÇERİKLİ: Soru metni + görsel
-        let html = markdownToHtml(soru.soruMetni);
+        // Görsel varsa metne gerek yok (çünkü görsel zaten metni içeriyor)
         if (soru.soruGorselPath) {
-          html += `<div class="soru-gorsel" style="margin-top:12px"><img src="${soru.soruGorselPath}" alt="Soru ${soru.soruNo}" /></div>`;
+          soruMetniEl.innerHTML = `<div class="soru-gorsel"><img src="${soru.soruGorselPath}" alt="Soru ${soru.soruNo}" /></div>`;
+        } else {
+          soruMetniEl.innerHTML = markdownToHtml(soru.soruMetni);
         }
-        soruMetniEl.innerHTML = html;
       }
       else {
         // TEMİZ: Normal metin
@@ -843,13 +988,38 @@
       zemuBtn.style.display = "none";
     }
 
+    // ── Test Adı Düzenleyici ─────────────
+    function formatTestAdi(rawName) {
+      if (!rawName) return "";
+      // 1. Başlangıçtaki rakamları ve alt çizgiyi sil (Örn: "30233234_" -> "")
+      let name = rawName.replace(/^\d+_+/, '');
+      // 2. Alt çizgileri ve tireleri boşluğa çevir
+      name = name.replace(/[_-]+/g, ' ');
+      // 3. Sık karşılaşılan karakter hatalarını düzelt
+      name = name.replace(/KazanYm/gi, 'Kazanım');
+      // Sadelik için çok uzun "Matematik 5 Kazanım Tarama Testi" isimlerini "Kazanım Testi" olarak kısalt
+      name = name.replace(/Matematik \d+ Kazanım Tarama Testi/gi, 'Kazanım Testi');
+      // "Matematik5 Test X" veya "Matematik 5 Test X" -> "Kazanım Testi X"
+      name = name.replace(/Matematik\s*\d*\s*Test\s*(\d+)/gi, 'Kazanım Testi $1');
+      // 4. Fazla boşlukları temizle
+      return name.replace(/\s+/g, ' ').trim();
+    }
+
+    // ── Test Sıralayıcı Yardımcı Fonksiyon ──
+    function getTestSira(test) {
+      const rawName = test.testAdi || test.testId || "";
+      const cleaned = formatTestAdi(rawName);
+      const match = cleaned.match(/\d+/);
+      return match ? parseInt(match[0], 10) : 999;
+    }
+
     // ── Test Seçimi ──────────────────────
     function testleriGoster() {
       testSelector.innerHTML = "";
       testler.forEach((test, i) => {
         const btn = document.createElement("button");
         btn.className = "test-btn" + (i === aktifTestIndex ? " active" : "");
-        btn.textContent = test.testAdi;
+        btn.textContent = formatTestAdi(test.testAdi);
         btn.id = `test-btn-${i}`;
         btn.addEventListener("click", () => {
           aktifTestIndex = i;
@@ -884,6 +1054,9 @@
           yukleniyorEl.innerHTML = "Hiç test bulunamadı.";
           return;
         }
+
+        // Testleri numaralarına göre sırala (Örn: Kazanım Testi 1, Kazanım Testi 2...)
+        testler.sort((a, b) => getTestSira(a) - getTestSira(b));
 
         aktifTest = testler[0];
         aktifSoruIndex = 0;
@@ -957,7 +1130,7 @@
       const ipucuMetni = soru.ipucu || "Bu soru için henüz ipucu yok.";
       ipucuKutusu.innerHTML = `<strong>💡 Zemu'dan ipucu:</strong><br>${markdownToHtml(ipucuMetni)}`;
       ipucuKutusu.style.display = "block";
-      
+
       if (soru.ipucu_ai) {
         zemuBtn.style.display = "inline-block";
       } else {
@@ -984,7 +1157,126 @@
       }
     });
 
-    veriyiYukle();
+    // ── Zemu Sürükleme (Drag & Drop) ─────────
+    const zemuWidget = document.querySelector('.zemu-widget');
+    const zemuChar = document.querySelector('.zemu-character');
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    zemuChar.addEventListener('mousedown', (e) => {
+      isDragging = true;
+      zemuChar.style.cursor = 'grabbing';
+      
+      const rect = zemuWidget.getBoundingClientRect();
+      zemuWidget.style.position = 'fixed';
+      zemuWidget.style.left = rect.left + 'px';
+      zemuWidget.style.top = rect.top + 'px';
+      zemuWidget.style.right = 'auto';
+      zemuWidget.style.bottom = 'auto';
+
+      offsetX = e.clientX - rect.left;
+      offsetY = e.clientY - rect.top;
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      // Metin seçimini engelle
+      e.preventDefault();
+      zemuWidget.style.left = (e.clientX - offsetX) + 'px';
+      zemuWidget.style.top = (e.clientY - offsetY) + 'px';
+    });
+
+    document.addEventListener('mouseup', () => {
+      if (isDragging) {
+        isDragging = false;
+        zemuChar.style.cursor = 'grab';
+      }
+    });
+
+    // ── Ders Seçimi Mantığı ───────────────
+    const dersSecimEkrani = document.getElementById("dersSecimEkrani");
+    const anaUygulama = document.getElementById("anaUygulama");
+    const derslereDonBtn = document.getElementById("derslereDonBtn");
+
+    const derslerListesi = [
+      { id: "matematik", isim: "Matematik" },
+      { id: "turkce", isim: "Türkçe" },
+      { id: "fen", isim: "Fen Bilimleri" },
+      { id: "sosyal", isim: "Sosyal Bilgiler" }
+    ];
+
+    function anaEkraniYukle() {
+      // Zemu'yu Karşılama Moduna Al
+      zemuWidget.classList.add('welcome-mode');
+      zemuWidget.style.position = '';
+      zemuWidget.style.left = '';
+      zemuWidget.style.top = '';
+      zemuWidget.style.right = '';
+      zemuWidget.style.bottom = '';
+      
+      document.querySelector('.zemu-actions').style.display = 'none';
+      document.querySelector('.zemu-mini-bubble').innerHTML = 'Merhaba, Ben Zemu!<br>Yapay Zeka Destekli Öğrenme Asistanınım';
+      
+      dersSecimEkrani.innerHTML = "";
+      derslerListesi.forEach(ders => {
+        const btn = document.createElement("div");
+        btn.className = "ders-kart";
+        
+        if (ders.id !== "matematik") {
+          btn.classList.add("disabled");
+          btn.innerHTML = `${ders.isim} <span class="yakinda-badge">Yakında eklenecek</span>`;
+        } else {
+          btn.textContent = ders.isim;
+        }
+        
+        btn.addEventListener("click", () => {
+          if (ders.id !== "matematik") {
+            alert(ders.isim + " dersi çok yakında Zemu'ya eklenecek! Şu anlık Matematik ile devam edebilirsin.");
+            return;
+          }
+          
+          dersSecimEkrani.style.display = "none";
+          anaUygulama.style.display = "flex";
+          
+          // Zemu'yu Asistan Moduna Al
+          zemuWidget.classList.remove('welcome-mode');
+          zemuWidget.style.position = '';
+          zemuWidget.style.left = '';
+          zemuWidget.style.top = '';
+          zemuWidget.style.right = '';
+          zemuWidget.style.bottom = '';
+          
+          document.querySelector('.zemu-actions').style.display = 'flex';
+          document.querySelector('.zemu-mini-bubble').innerHTML = 'İpucu istersen beraber düşünelim! 💡';
+          
+          // Eğer veri henüz yüklenmediyse yükle
+          if (!testler || testler.length === 0) {
+            veriyiYukle();
+          }
+        });
+        
+        dersSecimEkrani.appendChild(btn);
+      });
+    }
+
+    derslereDonBtn.addEventListener("click", () => {
+      anaUygulama.style.display = "none";
+      dersSecimEkrani.style.display = "grid";
+      
+      // Zemu'yu Karşılama Moduna Geri Al
+      zemuWidget.classList.add('welcome-mode');
+      zemuWidget.style.position = '';
+      zemuWidget.style.left = '';
+      zemuWidget.style.top = '';
+      zemuWidget.style.right = '';
+      zemuWidget.style.bottom = '';
+      
+      document.querySelector('.zemu-actions').style.display = 'none';
+      document.querySelector('.zemu-mini-bubble').innerHTML = 'Merhaba, Ben Zemu!<br>Yapay Zeka Destekli Öğrenme Asistanınım';
+    });
+
+    // Başlangıçta ders seçim ekranını göster
+    anaEkraniYukle();
   </script>
 </body>
 
