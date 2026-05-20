@@ -381,5 +381,1106 @@
         "ipucu_ai": "Doğruların birbirine göre durumunu anlamak için kesişim noktalarına bakmalısın."
       }
     ]
+  },
+  {
+    "testId": "01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4",
+    "testAdi": "01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "![img-0.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img0.jpg)\nYandaki altıgenin adlandırılış aşağıdakilerden hangisidir?",
+        "secenekler": {
+          "A": "DEFABC",
+          "B": "ABDEFC",
+          "C": "AEFDCB",
+          "D": "DEFBAC"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q1.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Altıgenin köşelerini saat yönünde takip ettiğinde sırayla hangi harflerle karşılaşıyorsun?"
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "![img-1.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img1.jpg)\nYandaki çokgende aşağıdakilerden hangisinin sayısı diğerlerinden farklıdır?",
+        "secenekler": {
+          "A": "Kenar",
+          "B": "Köşegen",
+          "C": "Köşe",
+          "D": "İç Açı"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q2.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Altıgenin her bir köşesinden kaç tane köşegen çizilebilir?"
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "Bir dörtgenin iki iç açısının ölçüleri toplamı 175° olduğuna göre diğer iki iç açısının ölçüleri aşağıdakilerden hangisi olabilir?",
+        "secenekler": {
+          "A": "65°, 70°",
+          "B": "80°, 70°",
+          "C": "105°, 90°",
+          "D": "90°, 95°\n\nS. Emri\n\nMatematik\n\nBasım: Teşekkeli Tezli\n\n#"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q3.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Dörtgenin iç açıları toplamı kaça eşit?"
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "BİLGİ: Bir gruptan veri toplamayı gerektiren çok cevaplı sorulara araştırma sorusu denir.\nYukarıdaki bilgiye göre aşağıdakilerden hangisi bir araştırma sorusu olabilir?",
+        "secenekler": {
+          "A": "Üç basamaklı en küçük çift sayı kaçtır?",
+          "B": "5-A Sınıfı öğrencilerinin en sevdiği ders nedir?",
+          "C": "Marmara bölgesinde kaç tane şehir vardır?",
+          "D": "Ayşe'nin annesinin adı nedir?"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q4.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Araştırma sorusu, birden fazla kişiden veri toplamayı gerektiren ve cevabı kişiden kişiye değişebilen bir soru olmalıdır."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Aşağıdaki tabloda 4 futbolcunun 2017-2018 sezonunda attıkları gol sayıları verilmiştir.\n\n| Futbolcu | Atılan Gol Sayıları |\n| --- | --- |\n| Ronaldo | 60 |\n| Messi | 58 |\n| Suarez | 55 |\n| Neymar | 49 |\n\n# Buna göre aşağıdakilerden hangisi doğrudur?",
+        "secenekler": {
+          "A": "Ronaldo'nun attığı gol sayısı, Neymar ve Suarez'in attığı gol sayısı toplamından fazladır.",
+          "B": "En fazla gol atan futbolcu Neymar'dır.",
+          "C": "Messi ve Suarez arasındaki gol farkı 3'tür.",
+          "D": "Messi, Ronaldo'dan 2 gol fazla atmıştır."
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q5.png",
+        "ipucu": "Tablodaki satır ve sütun başlıklarına dikkat et. Verilen bilgileri seçeneklerdeki tabloyla karşılaştır.",
+        "ipucu_ai": "Verilen seçeneklerdeki iddiaları futbolcuların gol sayılarıyla karşılaştırarak hangisinin doğru olduğunu bulabilirsin."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Otomobil, minibüsten kaç kez fazla kullanılmıştır?",
+        "secenekler": {
+          "A": "4",
+          "B": "6",
+          "C": "8",
+          "D": "10"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q6.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Görseldeki verileri inceleyerek otomobil ve minibüs sayılarını karşılaştır."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "Bu kişinin en az kullandığı ulaşım aracı hangisidir?",
+        "secenekler": {
+          "A": "Uçak",
+          "B": "Minibüs",
+          "C": "Otomobil",
+          "D": "Feribot"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q7.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Verilen ulaşım araçlarının kullanım sıklığını karşılaştırarak en az kullanılanı bulabilirsin."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Batuhan'ın geliştirdiği bir bilgisayar programına göre rakamları sıfırdan ve birbirinden farklı iki veya daha fazla basamaklı doğal sayıların yazılma sistemi aşağıdaki gibidir.\n\nSayı → Sayı karenin içine yazılırsa en küçük rakam pay, en büyük rakam paydadır.\n\nSayı → Sayı üçgenin içine yazılırsa en büyük rakam ile en küçük rakam arasındaki fark pay, en küçük rakam paydadır.\n\nÖrneğin:\n\n74 → $\\frac{4}{7}$\n\n61 → $\\frac{6 - 1}{1} = \\frac{5}{1}$\n\nBuna göre bu bilgisayar programına girilen\n\n86 ve 283\n\nsayılarının oluşturduğu kesirlerin\n\ntoplamı kaçtır?",
+        "secenekler": {
+          "A": "$\\frac{15}{3}$",
+          "B": "$\\frac{13}{3}$",
+          "C": "$\\frac{15}{4}$",
+          "D": "$\\frac{13}{4}$"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q8.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "86 sayısı için kare içine yazıldığında pay ve payda değerlerini, 283 sayısı için üçgen içine yazıldığında pay ve payda değerlerini hesapla."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "Aşağıdaki ifadelerden hangisi yanlıştır?",
+        "secenekler": {
+          "A": "$954\\ \\mathrm{mm} = 9\\ \\mathrm{dm}\\ 54\\ \\mathrm{mm}$",
+          "B": "$18\\ \\mathrm{m}\\ 6\\ \\mathrm{dm} = 186\\ \\mathrm{dm}$",
+          "C": "$851\\ \\mathrm{cm} = 8\\ \\mathrm{m}\\ 51\\ \\mathrm{cm}$",
+          "D": "$1\\ \\mathrm{km}\\ 8\\ \\mathrm{m} = 1080\\ \\mathrm{m}$\n\nE. Ömer\n\nMatematik\n\nBasım: Teşekkeli Tezli"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q9.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Uzunluk ölçü birimlerini birbirine dönüştürürken hangi basamakta hata yapıldığını kontrol et."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "Beste bilgisayarına boyutu 700 MB (Megabayt) olan bir program yüklemektedir.\n\nBir süre sonra bilgisayarın ekran görüntüsü şekildeki gibi olduğuna göre programın yüklenmeyen kaç MB'lık kısmı kalmıştır?",
+        "secenekler": {
+          "A": "260 MB",
+          "B": "280 MB",
+          "C": "420 MB",
+          "D": "560 MB\n\n\n\nYalova Ölçme Değerlendirme Merkezi\n\n1-A, 2-B, 3-D, 4-B, 5-C, 6-A, 7-A, 8-C, 9-D, 10-B"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/q10.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Yüklenmeyen kısmı bulmak için programın boyutundan yüklenen kısmı çıkar."
+      }
+    ]
+  },
+  {
+    "testId": "01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3",
+    "testAdi": "01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "182,718 ondalık gösterimde birler ve yüzde birler basamakları yer değiştirilirse ondalık gösterimde nasıl bir değişim olur?",
+        "secenekler": {
+          "A": "0,99 Azalır",
+          "B": "0,99 Artar",
+          "C": "4,5 Artar",
+          "D": "4,5 Azalır"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q1.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Ondalık gösterimdeki sayıyı oluşturan basamakların değerlerini (birler, onda birler, yüzde birler vb.) tek tek hesapla ve yer değiştirmeden önceki ve sonraki sayıları karşılaştır."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "Aşağıdaki eğitliklerden hangisi yanlıştır?",
+        "secenekler": {
+          "A": "%90 = 0,9",
+          "B": "%66 = 0,66",
+          "C": "%8 = 0,08",
+          "D": "%7 = 0,7"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q2.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Yüzdelik bir ifadenin ondalık gösterime dönüştürülmesinde, yüzde işaretini kaldırıp sayıyı 100'e bölmeyi unutma."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "$\\frac{16}{25}; \\%65; 0,7; \\frac{11}{20}$\n\nYukarıdaki çoklukların doğru sıralanışı aşağıdakiğinden hangisidir?",
+        "secenekler": {
+          "A": "$\\frac{16}{25} &gt; \\%65 &gt; 0,7 &gt; \\frac{11}{20}$",
+          "B": "$0,7 &gt; \\%65 &gt; \\frac{16}{25} &gt; \\frac{11}{20}$",
+          "C": "$\\%65 &gt; 0,7 &gt; \\frac{11}{20} &gt; \\frac{16}{25}$",
+          "D": "$0,7 &gt; \\frac{16}{25} &gt; \\frac{11}{20} &gt; \\%65$"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q3.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Tüm sayıları aynı gösterim biçimine (ondalık sayı) dönüştürerek karşılaştır."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Bir okuldaki 850 öğrencinin %60'ı kız öğrencidir. Buna göre bu okulda kaç erkek öğrenci vardır?",
+        "secenekler": {
+          "A": "340",
+          "B": "370",
+          "C": "510",
+          "D": "680"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q4.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Yüzdeyi ondalık sayıya çevirip kız öğrenci sayısını bulduktan sonra, toplam öğrenci sayısından çıkar."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "\"KL ışını ile MN ışını paraleldir.\"\n\nYukarıdaki ifadenin sembol ile gösterimi aşağıdakiğinden hangisidir?",
+        "secenekler": {
+          "A": "KL // MN",
+          "B": "[KL // [MN",
+          "C": "KL ⊥ MN",
+          "D": "[KL] ⊥ [MN]"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q5.png",
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Işınların sembol ile gösteriminde, ışınların üzerindeki köşeli parantezler kullanılmaz."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "![img-1.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa0_img1.jpg)\n\nBirim kareli kağıtta A ve B noktalarının konumları gösterilmektedir.\n\nBuna göre A noktasının B noktasına göre konumu aşağıdakiğinden hangisidir?",
+        "secenekler": {
+          "A": "1 birim güneyinin 2 birim batısında",
+          "B": "2 birim güneyinin 1 birim doğusunda",
+          "C": "2 birim kuzeyinin 1 birim batısında",
+          "D": "1 birim kuzeyinin 2 birim doğusunda\n\nS. Emet\n\nMatematik\n\nResme Tema Yeri"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q6.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Koordinat sisteminde, bir noktanın konumunu belirlerken önce dikey (kuzey-güney) sonra yatay (doğu-batı) yönünü dikkate al."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "Yukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?",
+        "secenekler": {
+          "A": "[AB] ile [HG]",
+          "B": "[AB] ile [EF]",
+          "C": "[AB] ile [CD]",
+          "D": "[EF] ile [HG]"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q7.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğru parçalarının uzunluklarını karşılaştırırken, birim kare sayısını dikkate al."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Şekilde verilenlere göre “?” yerine gelmesi gereken açı kaç derecedir?\n\n![img-4.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img2.jpg)",
+        "secenekler": {
+          "A": "80",
+          "B": "90",
+          "C": "100",
+          "D": "110"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q8.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Açıların toplamı 180° olan komşu açı çiftlerine dikkat et."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "Yandaki açıyı aşağıda verilen ifadelerden hangisi ile adlandırabiliriz?\n\n![img-3.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img1.jpg)",
+        "secenekler": {
+          "A": "$\\widehat{\\mathrm{ACB}}$",
+          "B": "$\\widehat{\\mathrm{CBA}}$",
+          "C": "$\\widehat{\\mathrm{C}}$",
+          "D": "$\\widehat{\\mathrm{BAC}}$"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q9.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Açının sembolle gösteriminde, orta harf her zaman açının köşesini temsil eder."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "![img-5.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img3.jpg)\n\nKareli kağıtta yer alan doğrulara göre aşağıdaki derden hangisi yanlıştır?",
+        "secenekler": {
+          "A": "b // c",
+          "B": "a // c",
+          "C": "d // e",
+          "D": "d // a"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/q10.png",
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Doğruların birbirine göre konumlarını belirlemek için paralel olup olmadıklarını inceleyebilirsin."
+      }
+    ]
+  },
+  {
+    "testId": "01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5",
+    "testAdi": "01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "On tam binde yirmi üç\nYüz tam yüzde dört\nYedi yüz yirmi beş tam onda bir\nİki yüz on tam binde üç\nYirmi üç tam yüzde seksen bir\n\nYukarıda okunuşları verilen ondalık sayılardan kaç tanesinin basamak sayısı beştir?",
+        "secenekler": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q1.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Ondalık sayıların basamak sayısını belirlerken tam kısmın ve ondalık kısmın toplamına bak."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "Bir çıkarma işleminde eksilen 4,25 artırılır, çıkan 0,5 azaltılırsa işlemin sonucu nasıl değişir?",
+        "secenekler": {
+          "A": "3,75 artar",
+          "B": "3,75 azalır",
+          "C": "4,75 artar",
+          "D": "4,75 azalır"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q2.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Eksilen artırıldığında sonuç artar, çıkan azaltıldığında sonuç da artar, bu iki değişimi topla."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "$$\\frac{28}{100} = \\% \\triangle \\text{ ve } \\frac{4}{10} = \\%$$ olduğuna göre\n\n▲ + işleminin sonucu kaçtır?",
+        "secenekler": {
+          "A": "24",
+          "B": "32",
+          "C": "48",
+          "D": "68"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q3.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Yüzdelik ifadeleri ondalık sayılara çevir, sonra topla."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Çilek seven öğrenciler tüm öğrencilerin yüzde kaçıdır?",
+        "secenekler": {
+          "A": "41",
+          "B": "38",
+          "C": "31",
+          "D": "19"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q4.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Verilen grafikte çilek seven öğrencilerin sayısını ve toplam öğrenci sayısını bul, sonra yüzdeyi hesapla."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Sınıf",
+        "secenekler": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "dogruCevap": "",
+        "durum": "BOZUK",
+        "bozukSebepleri": [
+          "A şıkkı boş",
+          "B şıkkı boş",
+          "C şıkkı boş",
+          "D şıkkı boş",
+          "soru metni çok kısa veya boş"
+        ],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Verilen grafikteki verileri oku, sorunun hangi verileri karşılaştırdığını belirle."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Muz ve elma seven öğrenciler tüm öğrencilerin yüzde kaçıdır?",
+        "secenekler": {
+          "A": "15",
+          "B": "20",
+          "C": "25",
+          "D": "30"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Grafikte muz ve elma seven öğrencilerin sayılarını topla, toplam öğrenci sayısına oranla yüzdeyi hesapla."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Sınıf\n\nMatematik\n\nBasım: Teşekkeli Tezli",
+        "secenekler": {
+          "A": "",
+          "B": "",
+          "C": "",
+          "D": ""
+        },
+        "dogruCevap": "",
+        "durum": "BOZUK",
+        "bozukSebepleri": [
+          "A şıkkı boş",
+          "B şıkkı boş",
+          "C şıkkı boş",
+          "D şıkkı boş"
+        ],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Grafikteki verileri oku, \"sınıf\" ve \"matematik\" seven öğrencilerin sayılarını topla, toplam öğrenci sayısına oranla yüzdeyi hesapla."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "![img-0.jpeg](data/images/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/sayfa1_img0.jpg)\n\n![img-1.jpeg](data/images/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/sayfa1_img1.jpg)\n\n![img-2.jpeg](data/images/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/sayfa1_img2.jpg)\n\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Sakız | 4,25 |\n| Zeytin | 8,9 |\n| Süt | 4,95 |\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Sakız | |\n| Zeytin | |\n| Süt | |\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Sakız | 4,75 |\n| Zeytin | 11,23 |\n| Süt | 5,75 |\n\nYukarıda A market ve C markete ait bazı ürünlerin fiyatları verilmiştir. B marketin ürün fiyatları C marketten az, A marketten fazladır.\n\nBuna göre, aşağıdaki nereden hangisi B marketteki bu ürünlere ait bir fiyat olamaz?",
+        "secenekler": {
+          "A": "4,5",
+          "B": "5,25",
+          "C": "7,75",
+          "D": "9,25"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q6.png",
+        "ipucu": "Kesirde payın ve paydanın neyi temsil ettiğini düşün. İşlem yapmadan önce verilen kurala göre kesri oluştur.",
+        "ipucu_ai": "Ürün fiyatlarını karşılaştır, b marketin fiyat aralığını belirle, hangi seçeneğin bu aralıkta olmadığını bul."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "15,624 + işleminin sonucunun en yakın doğal sayı olması için yerine aşağıdaki nereden hangisi gelmelidir?",
+        "secenekler": {
+          "A": "0,24",
+          "B": "0,376",
+          "C": "12,08",
+          "D": "14,02"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q7.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Toplama işleminin sonucunu 16'ya yakınlaştırmak için verilen seçenekleri dene, hangisinin eklenmesiyle sonuç en yakın doğal sayıya ulaşır?"
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Batuhan'ın kumbarasında 5 tane 20 lira, 3 tane 10 lira, 4 tane de 5 lirası vardır.\n\nBatuhan kumbarasından çıkan paranın %30'u ile oyuncak alırsa kumbarada kaç lirası kalır?",
+        "secenekler": {
+          "A": "45",
+          "B": "100",
+          "C": "105",
+          "D": "110"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q8.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Toplam parayı hesapla, %30'unu bul, kalan parayı çıkar."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "![img-3.jpeg](data/images/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/sayfa1_img3.jpg)\n\nDikdörtgen şeklindeki bir kartondan alanları birbirine eşit 4 tane üçgen kesip çıkarılıyor.\n\nKesilen üçgenlerin herbirinin alanı tüm kartonun alanının %12'sine eşit ise taralı alan tüm kartonun alanının kaçta kaçıdır?",
+        "secenekler": {
+          "A": "$\\frac{1}{2}$",
+          "B": "$\\frac{8}{25}$",
+          "C": "$\\frac{13}{25}$",
+          "D": "$\\frac{16}{25}$"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q9.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Kartonun toplam alanını 100 kabul et, kesilen her üçgenin alanını hesapla, kalan alanı bul."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "380 TL'lik bir takım elbise %25 indirim ile kaç TL'ye satılır?\n\n![img-4.jpeg](data/images/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/sayfa1_img4.jpg)",
+        "secenekler": {
+          "A": "300",
+          "B": "295",
+          "C": "290",
+          "D": "285"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q10.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "380 TL'nin %25'ini hesapla, indirim miktarını çıkar."
+      }
+    ]
+  },
+  {
+    "testId": "01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6",
+    "testAdi": "01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "Standart açı ölçme birimi nedir?",
+        "secenekler": {
+          "A": "Derece",
+          "B": "İletki",
+          "C": "Gönye",
+          "D": "Pergel"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q1.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Standart açı ölçme birimi, açıları ifade etmek için kullanılan temel birimdir."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "Çivi\n- Bir ucu açılmış kalem\n- Güneş ışını\n\n![img-0.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa0_img0.jpg)\n\nYukarıdaki modeller aşağıdaki geometrik kavramlardan hangisine örnek oluşturur?",
+        "secenekler": {
+          "A": "Nokta",
+          "B": "Işın",
+          "C": "Doğru",
+          "D": "Doğru Parçası"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q2.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Geometrik kavramların tanımlarını hatırla: bir ucu sınırlı olan, diğer ucu sonsuza giden doğru parçasına ne denir?"
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "Saat dokuzu gösterdiğinde akrep ile yelkovan arasındaki açı kaç derecedir?",
+        "secenekler": {
+          "A": "90",
+          "B": "180",
+          "C": "270",
+          "D": "360"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q3.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Dairenin 360 derece olduğunu ve saatin 12 eşit parçaya bölündüğünü hatırla."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "\"KL doğrusu ile MN doğrusu diktir.\"\n\nYukarıdaki ifadenin sembol ile gösterimi aşağıdaki-lerden hangisidir?",
+        "secenekler": {
+          "A": "KL // MN",
+          "B": "[KL // [MN",
+          "C": "KL ⊥ MN",
+          "D": "[KL] ⊥ [MN]"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q4.png",
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Diklik sembolünü hatırla: hangi sembol iki doğru arasındaki dikliği gösterir?"
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "![img-2.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa0_img2.jpg)\n![img-3.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa0_img3.jpg)\n\nBirim kareli kağıtta A ve B noktalarının konumları gösterilmektedir.\n\nBuna göre B noktasının A noktasına göre konumu aşağıdaki-lerden hangisidir?",
+        "secenekler": {
+          "A": "2 birim solunun 3 birim aşağısında",
+          "B": "2 birim sağının 3 birim yukarısında",
+          "C": "3 birim sağının 2 birim yukarısında",
+          "D": "3 birim solunun 2 birim aşağısında\n\nS. Emri\n\nMatematik\n\nBasım Tırını Yeri"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q5.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Koordinat düzleminde yatay ve dikey hareketleri hatırla: hangi yöne doğru artar ya da azalır?"
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Aşağıdaki harflerin hangisinde hem paralel hem de dik kesişen doğrulara örnek vardır?",
+        "secenekler": {
+          "A": "A",
+          "B": "K",
+          "C": "F",
+          "D": "N"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q6.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Harflerin yapısına dikkat et: hangisinde hem birbirine paralel hem de birbirini dik kesen çizgiler bulunur?"
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "![img-4.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img0.jpg)\n\nYandaki çokgende aşağıdaki kilerden hangisinin sayısı diğerlerinden farklıdır?",
+        "secenekler": {
+          "A": "Köşegen",
+          "B": "Kenar",
+          "C": "Köse",
+          "D": "İç Açı"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q7.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Çokgenin temel elemanlarını sayarken adlarını doğru şekilde ayırt et: hangisi sadece kenar, köşe ve açıdan farklı bir terimdir?"
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "![img-5.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img1.jpg)\n\nYukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?",
+        "secenekler": {
+          "A": "[AB] ile [HG]",
+          "B": "[AB] ile [EF]",
+          "C": "[AB] ile [CD]",
+          "D": "[EF] ile [HG]"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q8.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğru parçalarının uzunluklarını karşılaştırırken birim kareleri say: hangi seçenekteki doğru parçaları aynı sayıda birim kareden oluşuyor?"
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "![img-6.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img2.jpg)\n\n![img-7.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img3.jpg)\n\n![img-8.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img4.jpg)\n\n![img-9.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img5.jpg)\n\n![img-10.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img6.jpg)\n\n![img-11.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa1_img7.jpg)\n\nYukarıda verilen şekillerden kaç tanesi çokgendir?",
+        "secenekler": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5\n\nE. Ömer\n\nMatematik\n\nCeren Tema Yeri"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q9.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Çokgen tanımını hatırla: hangi şekiller kapalı, düz kenarlı ve en az üç kenara sahip olmalıdır?"
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "Ceren, aşağıdaki belli aralığı silinmiş 30 cm'lik cetveli kullanarak uzunlukları farklı olan kalemleri ölçmek istiyor.\n\n![img-12.jpeg](data/images/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/sayfa2_img0.jpg)\n\nBu durumda Ceren aşağıda uzunlukları verilen kalemlerden hangisini tek bir ölçüm ile santimetre cinsinden ölçemez?",
+        "secenekler": {
+          "A": "12,7",
+          "B": "13,2",
+          "C": "13,8",
+          "D": "15,2\n\n1-A, 2-B, 3-A, 4-C, 5-D, 6-C, 7-A, 8-B, 9-B, 10-D"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221420_Matematik_5_-_KazanYm_Tarama_Testi_-6/q10.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Cetveldeki ölçülebilen aralıkları karşılaştır: hangi kalemin uzunluğu cetveldeki ölçü aralıklarına denk gelmez?"
+      }
+    ]
+  },
+  {
+    "testId": "01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7",
+    "testAdi": "01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "Beş tam yüzde otuz iki\nÜç yüz tam binde bir\nAltı yüz on tam onda iki\nÜç yüz beş tam binde beş\nElli iki tam yüzde on yedi\n\nYukarıda okunuşları verilen ondalık sayılardan kaç tanesinin basamak sayısı altıdır?",
+        "secenekler": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q1.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Ondalık kısmın en fazla basamağına sahip olan sayıyı bul, onda verilen basamak sayısını karşılaştır."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "Bir çıkarma işleminde eksilen 6,18 artırılır, çıkan 4,72 azaltılırsa işlemin sonucu nasıl değişir?",
+        "secenekler": {
+          "A": "1,46 azalır",
+          "B": "1,46 artar",
+          "C": "10,90 azalır",
+          "D": "10,90 artar"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q2.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Çıkarma işleminde eksilen artarsa sonuç artar, çıkan azalırsa sonuç da artar."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "118,72 - 🏠 işleminin sonucunun en yakın doğal sayı olması için 🏠 yerine aşağıdaki derden hangisi gelmelidir?",
+        "secenekler": {
+          "A": "0,28",
+          "B": "1,28",
+          "C": "0,72",
+          "D": "18,28"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q3.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Çıkarma işleminde sonucu doğal sayı yapmak için ondalık kısmın toplamı 0,72 olan sayıyı seç."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Ahmet parasının %65'i ile defter alıyor. Buna göre, Ahmet'in kalan parasının ondalık gösterimi aşağıdaki kilerden hangisidir?",
+        "secenekler": {
+          "A": "$\\frac{13}{20}$",
+          "B": "$\\frac{11}{20}$",
+          "C": "$\\frac{7}{20}$",
+          "D": "$\\frac{3}{20}$"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q4.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Yüzdeyi ondalık sayıya çevirirken %65 = 0,65 ve kalan para 1 - 0,65 = 0,35 olur."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "$\\frac{35}{100} = \\% \\triangle$ ve $\\frac{2}{25} = \\%$ olduğuna göre\n▲ + işleminin sonucu kaçtır?",
+        "secenekler": {
+          "A": "37",
+          "B": "43",
+          "C": "45",
+          "D": "50"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q5.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Yüzdelik sayıları bulurken paydayı 100 yap, sonra topla."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Bir sayının yarısı ile çeyreğinin toplamının yüzdelik gösterimi aşağıdaki derden hangisidir?",
+        "secenekler": {
+          "A": "%75",
+          "B": "%80",
+          "C": "%85",
+          "D": "%100"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q6.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Sayının tamamı 100% ise, yarısı 50%, çeyreği 25% olur."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "![img-1.jpeg](data/images/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/sayfa1_img1.jpg)\n\n![img-2.jpeg](data/images/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/sayfa1_img2.jpg)\n\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Muz | 9,50 |\n| Peynir | 8,9 |\n| Süt | 6,95 |\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Muz | |\n| Peynir | |\n| Süt | |\n| ÜRÜN | FİYAT |\n| --- | --- |\n| Muz | 11,45 |\n| Peynir | 11,23 |\n| Süt | 7,75 |\n\nYukarıda A market ve C markete ait bazı ürünlerin fiyatları verilmiştir. B marketin ürün fiyatları C marketten az, A marketten fazladır.\n\nBuna göre, aşağıdaki nereden hangisi B marketteki bu ürünlere ait bir fiyat olamaz?",
+        "secenekler": {
+          "A": "7,40",
+          "B": "8,85",
+          "C": "9,25",
+          "D": "10,75"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q7.png",
+        "ipucu": "Kesirde payın ve paydanın neyi temsil ettiğini düşün. İşlem yapmadan önce verilen kurala göre kesri oluştur.",
+        "ipucu_ai": "A marketten ucuz, C marketten pahalı olan B market fiyatları, A ve C arasında bir yerde olmalı."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Dikdörtgen şeklindeki bir kartondan alanları birbirine eşit olan 4 tane üçgen kesip çıkarılıyor.\n\nKesilen üçgenlerin herbirinin alanı tüm kartonun alanının %8'ine eşit ise taralı alan tüm kartonun alanının kaçta kaçıdır?",
+        "secenekler": {
+          "A": "$\\frac{12}{25}$",
+          "B": "$\\frac{13}{25}$",
+          "C": "$\\frac{15}{25}$",
+          "D": "$\\frac{17}{25}$"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q8.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Kartondaki toplam alan 100% ise, kesilen 4 üçgenin alanı 4 x 8% = 32% olur."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "150 TL'lik ceketin fiyatına %20 zam yapılıyor. Ceketin zamlı fiyatı kaç TL'dir?",
+        "secenekler": {
+          "A": "200",
+          "B": "190",
+          "C": "180",
+          "D": "170"
+        },
+        "dogruCevap": "",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Zam miktarını bulmak için 150'nin %20'sini hesapla, sonra ceketin ilk fiyatına ekle."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "400 sayfalık bir kitabın her gün %4'ünü okuyan Mehmet Can bir haftada kitabın kaç sayfasını okur?\n\n![img-5.jpeg](data/images/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/sayfa1_img5.jpg)",
+        "secenekler": {
+          "A": "112",
+          "B": "100",
+          "C": "98",
+          "D": "90"
+        },
+        "dogruCevap": "",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221524_Matematik_5_-_KazanYm_Tarama_Testi_-7/q10.png",
+        "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
+        "ipucu_ai": "Kitabın %4'ü 16 sayfa eder, bir haftada 7 gün var."
+      }
+    ]
+  },
+  {
+    "testId": "01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8",
+    "testAdi": "01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "Ölçüsü ... olan açılara doğru açı denir.\nÖlçüsü 85° olan bir açı ... ya örnektir.\nÖlçüsü 90° ile 180° arasında olan açılara ... açı denir.\n\nVerilen ifadelerdeki boşluklara aşağıdakilerden hangisi getirilemez?",
+        "secenekler": {
+          "A": "90°",
+          "B": "180°",
+          "C": "Dar Açı",
+          "D": "Geniş Açı"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q1.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Ölçüsü 180° olan bir açı, doğru açıdır."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "![img-0.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa0_img0.jpg)\n![img-1.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa0_img1.jpg)\n\nBirim kareli kağıtta A ve B noktalarının konumları gösterilmektedir.\n\nBuna göre A noktasının B noktasına göre konumu aşağıdakilerden hangisidir?",
+        "secenekler": {
+          "A": "1 birim güneyinin 2 birim batısında",
+          "B": "2 birim güneyinin 1 birim doğusunda",
+          "C": "2 birim kuzeyinin 1 birim batısında",
+          "D": "1 birim kuzeyinin 2 birim doğusunda"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q2.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "A noktasının B noktasına göre konumunu bulmak için B noktasından başlayarak yatay ve dikey yönde kaç birim ilerlendiğini kareleri sayarak bulabilirsin."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "Aşağıdakilerden geometrik kavramlardan hangisi iki ucundan sınırlıdır?",
+        "secenekler": {
+          "A": "Doğru",
+          "B": "Doğru Parçası",
+          "C": "İşin",
+          "D": "Nokta"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q3.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "İki ucu olan ve sınırlı olan geometrik kavramı düşündüğünde hangi şıkta birbirine bağlı iki nokta olduğunu bulabilirsin."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Saat altıyı gösterdiğinde akrep ile yel-kovan arasındaki açı kaç derecedir?",
+        "secenekler": {
+          "A": "360",
+          "B": "180",
+          "C": "90",
+          "D": "45"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q4.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Akrep ve yelkovan arasındaki açı, dairesel bir saat diliminde 30°'lik eşit parçalara bölündüğünde hesaplanır."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "![img-2.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa0_img2.jpg)\n\nYandaki beşgenin adlandırılış aşağıdakilerden hangisidir?",
+        "secenekler": {
+          "A": "STRPV",
+          "B": "SPRTV",
+          "C": "VRTPS",
+          "D": "TRSPV\n\nS. Emet\n\nMatematik\n\nBasım Tansit Yeri"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q5.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Beşgenin köşeleri saat yönünde veya saat yönünün tersinde sırayla adlandırılır."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Aşağıdaki harflerin hangisinde hem paralel hem de dik kesişen doğrulara örnek vardır?",
+        "secenekler": {
+          "A": "A",
+          "B": "E",
+          "C": "M",
+          "D": "Z"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q6.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Harfleri oluşturan çizgileri incele. Dikey ve yatay doğruların birbirine göre durumunu değerlendir."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "\"KL doğru parçası ile MN doğru parçası paraleldir.\"\n\nYukarıdaki ifadenin sembol ile gösterimi aşağıdaki-lerden hangisidir?",
+        "secenekler": {
+          "A": "KL // MN",
+          "B": "[KL // [MN",
+          "C": "KL ⊥ MN",
+          "D": "[KL] // [MN]"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q7.png",
+        "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
+        "ipucu_ai": "Doğru parçaları paralel sembolüyle gösterilir."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "![img-3.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img0.jpg)\n\nYukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?",
+        "secenekler": {
+          "A": "[AB] ile [HG]",
+          "B": "[AB] ile [EF]",
+          "C": "[AB] ile [CD]",
+          "D": "[EF] ile [HG]"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q8.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Doğru parçalarının uzunlukları kare sayısıyla ölçülür."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "![img-4.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img1.jpg)\n\n![img-5.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img2.jpg)\n\n![img-6.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img3.jpg)\n\n![img-7.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img4.jpg)\n\n![img-8.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img5.jpg)\n\n![img-9.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa1_img6.jpg)\n\nYukarıda verilen şekillerden kaç tanesi çokgendir?",
+        "secenekler": {
+          "A": "2",
+          "B": "3",
+          "C": "4",
+          "D": "5\n\nE. Ömer\n\nMatematik\n\nCeren Tema Yeri"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q9.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Çokgen olup olmadığını anlamak için şekillerin düz kenarlardan oluşan kapalı bir alana sahip olup olmadığına bak."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "Ceren, aşağıdaki belli aralığı silinmiş 30 cm'lik cetveli kullanarak uzunlukları farklı olan kalemleri ölçmek istiyor.\n\n![img-10.jpeg](data/images/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/sayfa2_img0.jpg)\n\nBu durumda Ceren aşağıda uzunlukları verilen kalemlerden hangisini tek bir ölçüm ile santimetre cinsinden ölçemez?",
+        "secenekler": {
+          "A": "12,5",
+          "B": "12,7",
+          "C": "13",
+          "D": "13,4"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q10.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Cetvelde eksik aralıklar olduğunda ölçümler tam sayı olmayabilir."
+      }
+    ]
   }
 ]

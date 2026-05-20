@@ -1,0 +1,24 @@
+{
+  "testAdi": "01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3",
+  "sayfaSayisi": 2,
+  "gorselHaritasi": {
+    "img-0.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa0_img0.jpg",
+    "img-1.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa0_img1.jpg",
+    "img-2.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img0.jpg",
+    "img-3.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img1.jpg",
+    "img-4.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img2.jpg",
+    "img-5.jpeg": "data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img3.jpg"
+  },
+  "sayfalar": [
+    {
+      "sayfaNo": 0,
+      "markdown": "YALOVA ÜÇME DEĞERLENDİRME MERKEZİ\nKAZANIM TARAMA TESTİ\nMATERMATİK\nS. Emet\n\n1. 182,718 ondalık gösterimde birler ve yüzde birler basamakları yer değiştirilirse ondalık gösterimde nasıl bir değişim olur?\n\nA) 0,99 Azalır\nB) 0,99 Artar\nC) 4,5 Artar\nD) 4,5 Azalır\n\n2. Aşağıdaki eğitliklerden hangisi yanlıştır?\n\nA) %90 = 0,9\nB) %66 = 0,66\nC) %8 = 0,08\nD) %7 = 0,7\n\n3. $\\frac{16}{25}; \\%65; 0,7; \\frac{11}{20}$\n\nYukarıdaki çoklukların doğru sıralanışı aşağıdakiğinden hangisidir?\n\nA) $\\frac{16}{25} &gt; \\%65 &gt; 0,7 &gt; \\frac{11}{20}$\nB) $0,7 &gt; \\%65 &gt; \\frac{16}{25} &gt; \\frac{11}{20}$\nC) $\\%65 &gt; 0,7 &gt; \\frac{11}{20} &gt; \\frac{16}{25}$\nD) $0,7 &gt; \\frac{16}{25} &gt; \\frac{11}{20} &gt; \\%65$\n\n4. Bir okuldaki 850 öğrencinin %60'ı kız öğrencidir. Buna göre bu okulda kaç erkek öğrenci vardır?\n\nA) 340\nB) 370\nC) 510\nD) 680\n\n5. \"KL ışını ile MN ışını paraleldir.\"\n\nYukarıdaki ifadenin sembol ile gösterimi aşağıdakiğinden hangisidir?\n\nA) KL // MN\nB) [KL // [MN\nC) KL ⊥ MN\nD) [KL] ⊥ [MN]\n\n![img-0.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa0_img0.jpg)\n6.\n\n![img-1.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa0_img1.jpg)\n\nBirim kareli kağıtta A ve B noktalarının konumları gösterilmektedir.\n\nBuna göre A noktasının B noktasına göre konumu aşağıdakiğinden hangisidir?\n\nA) 1 birim güneyinin 2 birim batısında\nB) 2 birim güneyinin 1 birim doğusunda\nC) 2 birim kuzeyinin 1 birim batısında\nD) 1 birim kuzeyinin 2 birim doğusunda\n\nS. Emet",
+      "gorselSayisi": 2
+    },
+    {
+      "sayfaNo": 1,
+      "markdown": "Matematik\n\nResme Tema Yeri\n\n![img-2.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img0.jpg)\n7.\n\nYukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?\n\nA) [AB] ile [HG]\nB) [AB] ile [EF]\nC) [AB] ile [CD]\nD) [EF] ile [HG]\n\n9. Yandaki açıyı aşağıda verilen ifadelerden hangisi ile adlandırabiliriz?\n\n![img-3.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img1.jpg)\n\nA) $\\widehat{\\mathrm{ACB}}$\nB) $\\widehat{\\mathrm{CBA}}$\nC) $\\widehat{\\mathrm{C}}$\nD) $\\widehat{\\mathrm{BAC}}$\n\n8. Şekilde verilenlere göre “?” yerine gelmesi gereken açı kaç derecedir?\n\n![img-4.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img2.jpg)\n\nA) 80\nB) 90\nC) 100\nD) 110\n\n10.\n\n![img-5.jpeg](data/images/01213714_Matematik_5_-_KazanYm_Tarama_Testi_-3/sayfa1_img3.jpg)\n\nKareli kağıtta yer alan doğrulara göre aşağıdaki derden hangisi yanlıştır?\n\nA) b // c\nB) a // c\nC) d // e\nD) d // a\n\nCEVAP ANAHTARI:\n\n1-A, 2-D, 3-B, 4-A, 5-B, 6-C, 7-C, 8-C, 9-B, 10-D\n\nE. Ömer",
+      "gorselSayisi": 4
+    }
+  ]
+}

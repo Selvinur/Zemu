@@ -1,0 +1,27 @@
+{
+  "testAdi": "01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4",
+  "sayfaSayisi": 3,
+  "gorselHaritasi": {
+    "img-0.jpeg": "data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img0.jpg",
+    "img-1.jpeg": "data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img1.jpg",
+    "img-2.jpeg": "data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa1_img0.jpg",
+    "img-3.jpeg": "data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa2_img0.jpg"
+  },
+  "sayfalar": [
+    {
+      "sayfaNo": 0,
+      "markdown": "YALOVA ÜÇME DEĞERLENDİRME MERKEZİ\nKAZANIM TARAMA TESTİ\nMATERMATİK\nS. Emri\n\n1. ![img-0.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img0.jpg)\nYandaki altıgenin adlandırılış aşağıdakilerden hangisidir?\nA) DEFABC\nB) ABDEFC\nC) AEFDCB\nD) DEFBAC\n\n4.  BİLGİ: Bir gruptan veri toplamayı gerektiren çok cevaplı sorulara araştırma sorusu denir.\nYukarıdaki bilgiye göre aşağıdakilerden hangisi bir araştırma sorusu olabilir?\nA) Üç basamaklı en küçük çift sayı kaçtır?\nB) 5-A Sınıfı öğrencilerinin en sevdiği ders nedir?\nC) Marmara bölgesinde kaç tane şehir vardır?\nD) Ayşe'nin annesinin adı nedir?\n\n2. ![img-1.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa0_img1.jpg)\nYandaki çokgende aşağıdakilerden hangisinin sayısı diğerlerinden farklıdır?\nA) Kenar\nB) Köşegen\nC) Köşe\nD) İç Açı\n\n5.  Aşağıdaki tabloda 4 futbolcunun 2017-2018 sezonunda attıkları gol sayıları verilmiştir.\n\n|  Futbolcu | Atılan Gol Sayıları  |\n| --- | --- |\n|  Ronaldo | 60  |\n|  Messi | 58  |\n|  Suarez | 55  |\n|  Neymar | 49  |\n\n# Buna göre aşağıdakilerden hangisi doğrudur?\n\nA) Ronaldo'nun attığı gol sayısı, Neymar ve Suarez'in attığı gol sayısı toplamından fazladır.\nB) En fazla gol atan futbolcu Neymar'dır.\nC) Messi ve Suarez arasındaki gol farkı 3'tür.\nD) Messi, Ronaldo'dan 2 gol fazla atmıştır.\n\n3.  Bir dörtgenin iki iç açısının ölçüleri toplamı 175° olduğuna göre diğer iki iç açısının ölçüleri aşağıdakilerden hangisi olabilir?\nA) 65°, 70°\nB) 80°, 70°\nC) 105°, 90°\nD) 90°, 95°\n\nS. Emri",
+      "gorselSayisi": 2
+    },
+    {
+      "sayfaNo": 1,
+      "markdown": "Matematik\n\nBasım: Teşekkeli Tezli\n\n# 6 ve 7. soruları aşağıdaki grafiğe göre cevaplayınız.\n\nGrafik: Ulaşım Araçlarının Kullanım Sıklığı\n\n![img-2.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa1_img0.jpg)\nKullanım Sıklığı\n\nYalova'da yaşayan bir iş adamının bir ay boyunca kullandığı ulaşım araçlarının sıklığı gösterilmiştir.\n\n6. Otomobil, minibüsten kaç kez fazla kullanılmıştır?\n\nA) 4\n\nB) 6\n\nC) 8\n\nD) 10\n\n7. Bu kişinin en az kullandığı ulaşım aracı hangisidir?\n\nA) Uçak\n\nB) Minibüs\n\nC) Otomobil\n\nD) Feribot\n\n8. Batuhan'ın geliştirdiği bir bilgisayar programına göre rakamları sıfırdan ve birbirinden farklı iki veya daha fazla basamaklı doğal sayıların yazılma sistemi aşağıdaki gibidir.\n\nSayı → Sayı karenin içine yazılırsa en küçük rakam pay, en büyük rakam paydadır.\n\nSayı → Sayı üçgenin içine yazılırsa en büyük rakam ile en küçük rakam arasındaki fark pay, en küçük rakam paydadır.\n\nÖrneğin:\n\n74 → $\\frac{4}{7}$\n\n61 → $\\frac{6 - 1}{1} = \\frac{5}{1}$\n\nBuna göre bu bilgisayar programına girilen\n\n86 ve 283\n\nsayılarının oluşturduğu kesirlerin\n\ntoplamı kaçtır?\n\nA) $\\frac{15}{3}$\n\nB) $\\frac{13}{3}$\n\nC) $\\frac{15}{4}$\n\nD) $\\frac{13}{4}$\n\n9. Aşağıdaki ifadelerden hangisi yanlıştır?\n\nA) $954\\ \\mathrm{mm} = 9\\ \\mathrm{dm}\\ 54\\ \\mathrm{mm}$\n\nB) $18\\ \\mathrm{m}\\ 6\\ \\mathrm{dm} = 186\\ \\mathrm{dm}$\n\nC) $851\\ \\mathrm{cm} = 8\\ \\mathrm{m}\\ 51\\ \\mathrm{cm}$\n\nD) $1\\ \\mathrm{km}\\ 8\\ \\mathrm{m} = 1080\\ \\mathrm{m}$\n\nE. Ömer",
+      "gorselSayisi": 1
+    },
+    {
+      "sayfaNo": 2,
+      "markdown": "Matematik\n\nBasım: Teşekkeli Tezli\n\n10. Beste bilgisayarına boyutu 700 MB (Megabayt) olan bir program yüklemektedir.\n\nBir süre sonra bilgisayarın ekran görüntüsü şekildeki gibi olduğuna göre programın yüklenmeyen kaç MB'lık kısmı kalmıştır?\n\nA) 260 MB\nB) 280 MB\nC) 420 MB\nD) 560 MB\n\n![img-3.jpeg](data/images/01211020_Matematik_5_-_KazanYm_Tarama_Testi_-4/sayfa2_img0.jpg)\n\nYalova Ölçme Değerlendirme Merkezi\n\n1-A, 2-B, 3-D, 4-B, 5-C, 6-A, 7-A, 8-C, 9-D, 10-B\n\nCEVAP ANAHTARI\n\n3\n\nB. Öneri",
+      "gorselSayisi": 1
+    }
+  ]
+}
