@@ -1163,7 +1163,7 @@
     let isDragging = false;
     let offsetX, offsetY;
 
-    zemuChar.addEventListener('mousedown', (e) => {
+    function startDrag(clientX, clientY) {
       isDragging = true;
       zemuChar.style.cursor = 'grabbing';
       
@@ -1174,23 +1174,58 @@
       zemuWidget.style.right = 'auto';
       zemuWidget.style.bottom = 'auto';
 
-      offsetX = e.clientX - rect.left;
-      offsetY = e.clientY - rect.top;
+      offsetX = clientX - rect.left;
+      offsetY = clientY - rect.top;
+    }
+
+    function doDrag(clientX, clientY) {
+      if (!isDragging) return;
+      zemuWidget.style.left = (clientX - offsetX) + 'px';
+      zemuWidget.style.top = (clientY - offsetY) + 'px';
+    }
+
+    function stopDrag() {
+      if (isDragging) {
+        isDragging = false;
+        zemuChar.style.cursor = 'grab';
+      }
+    }
+
+    // Mouse Olayları
+    zemuChar.addEventListener('mousedown', (e) => {
+      startDrag(e.clientX, e.clientY);
     });
 
     document.addEventListener('mousemove', (e) => {
       if (!isDragging) return;
       // Metin seçimini engelle
       e.preventDefault();
-      zemuWidget.style.left = (e.clientX - offsetX) + 'px';
-      zemuWidget.style.top = (e.clientY - offsetY) + 'px';
+      doDrag(e.clientX, e.clientY);
     });
 
     document.addEventListener('mouseup', () => {
-      if (isDragging) {
-        isDragging = false;
-        zemuChar.style.cursor = 'grab';
+      stopDrag();
+    });
+
+    // Dokunmatik Ekran (Mobil) Olayları
+    zemuChar.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 0) {
+        // Mobilde sürükleme yaparken sayfanın kaymasını engelle
+        e.preventDefault();
+        startDrag(e.touches[0].clientX, e.touches[0].clientY);
       }
+    }, { passive: false });
+
+    document.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      if (e.touches.length > 0) {
+        e.preventDefault();
+        doDrag(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchend', () => {
+      stopDrag();
     });
 
     // ── Ders Seçimi Mantığı ───────────────
