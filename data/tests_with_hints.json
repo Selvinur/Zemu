@@ -12,7 +12,7 @@
           "C": "ABDCE",
           "D": "BAECD"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q1.png",
         "bozukSebepleri": [],
@@ -29,7 +29,7 @@
           "C": "Köşe",
           "D": "Köşegen"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q2.png",
         "bozukSebepleri": [],
@@ -46,7 +46,7 @@
           "C": "72°",
           "D": "82° D 118° ?"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q3.png",
         "bozukSebepleri": [],
@@ -63,7 +63,7 @@
           "C": "Bu ilde tedavi gören hastaların sayısı ne kadardır?",
           "D": "Bu ilde okul sayısı ne kadardır?"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "TEMİZ",
         "soruGorselPath": null,
         "bozukSebepleri": [],
@@ -80,7 +80,7 @@
           "C": "Aylar Turist Sayısı Haziran 400.000 Temmuz 410.000 Ağustos 450.000",
           "D": ""
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q5.png",
         "bozukSebepleri": [
@@ -99,7 +99,7 @@
           "C": "Salı",
           "D": "Pazartesi"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q6.png",
         "bozukSebepleri": [],
@@ -133,7 +133,7 @@
           "C": "",
           "D": "2 Sayı karenin içine yazılırsa en küçük rakam pay, en büyük rakam paydadır. Sayı Sayı üçgenin içine yazılırsa en büyük rakam ile en küçük rakam arasındaki fark pay, en küçük rakam paydadır. Örneğin: 74 7 4 61 1 61 1 5- = 96 365 3 5 2 5 3 4"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "A",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q8.png",
         "bozukSebepleri": [
@@ -155,7 +155,7 @@
           "C": "I ve IV",
           "D": "II ve IV"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q9.png",
         "bozukSebepleri": [],
@@ -172,7 +172,7 @@
           "C": "720 MB",
           "D": "560 MB"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q10.png",
         "bozukSebepleri": [],
@@ -196,7 +196,7 @@
           "D": "10,93"
         },
         "dogruCevap": "C",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q1.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -213,7 +213,7 @@
           "D": "%100"
         },
         "dogruCevap": "C",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q2.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -230,7 +230,7 @@
           "D": "4"
         },
         "dogruCevap": "B",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q3.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -247,7 +247,7 @@
           "D": "4200"
         },
         "dogruCevap": "D",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q4.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -264,7 +264,7 @@
           "D": "[KL] ⊥ [MN]"
         },
         "dogruCevap": "B",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q5.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -281,7 +281,7 @@
           "D": "3 birim batısının 2 birim kuzeyinde"
         },
         "dogruCevap": "B",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q6.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -298,7 +298,7 @@
           "D": "[EF] ile [HG]"
         },
         "dogruCevap": "A",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q7.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -315,7 +315,7 @@
           "D": "100"
         },
         "dogruCevap": "A",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q8.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -332,7 +332,7 @@
           "D": "MK̂L"
         },
         "dogruCevap": "D",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q9.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -349,7 +349,7 @@
           "D": "a // c"
         },
         "dogruCevap": "B",
-        "durum": "TEMİZ",
+        "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q10.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -371,7 +371,7 @@
           "C": "AEFDCB",
           "D": "DEFBAC"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -388,7 +388,7 @@
           "C": "Köşe",
           "D": "İç Açı"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -405,7 +405,7 @@
           "C": "105°, 90°",
           "D": "90°, 95°\n\nS. Emri\n\nMatematik\n\nBasım: Teşekkeli Tezli\n\n#"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -422,7 +422,7 @@
           "C": "Marmara bölgesinde kaç tane şehir vardır?",
           "D": "Ayşe'nin annesinin adı nedir?"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -439,7 +439,7 @@
           "C": "Messi ve Suarez arasındaki gol farkı 3'tür.",
           "D": "Messi, Ronaldo'dan 2 gol fazla atmıştır."
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -456,7 +456,7 @@
           "C": "8",
           "D": "10"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -473,7 +473,7 @@
           "C": "Otomobil",
           "D": "Feribot"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -490,7 +490,7 @@
           "C": "$\\frac{15}{4}$",
           "D": "$\\frac{13}{4}$"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -507,7 +507,7 @@
           "C": "$851\\ \\mathrm{cm} = 8\\ \\mathrm{m}\\ 51\\ \\mathrm{cm}$",
           "D": "$1\\ \\mathrm{km}\\ 8\\ \\mathrm{m} = 1080\\ \\mathrm{m}$\n\nE. Ömer\n\nMatematik\n\nBasım: Teşekkeli Tezli"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -524,7 +524,7 @@
           "C": "420 MB",
           "D": "560 MB\n\n\n\nYalova Ölçme Değerlendirme Merkezi\n\n1-A, 2-B, 3-D, 4-B, 5-C, 6-A, 7-A, 8-C, 9-D, 10-B"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -547,7 +547,7 @@
           "C": "4,5 Artar",
           "D": "4,5 Azalır"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -615,7 +615,7 @@
           "C": "KL ⊥ MN",
           "D": "[KL] ⊥ [MN]"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -632,7 +632,7 @@
           "C": "2 birim kuzeyinin 1 birim batısında",
           "D": "1 birim kuzeyinin 2 birim doğusunda\n\nS. Emet\n\nMatematik\n\nResme Tema Yeri"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -649,7 +649,7 @@
           "C": "[AB] ile [CD]",
           "D": "[EF] ile [HG]"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -666,7 +666,7 @@
           "C": "100",
           "D": "110"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -683,7 +683,7 @@
           "C": "$\\widehat{\\mathrm{C}}$",
           "D": "$\\widehat{\\mathrm{BAC}}$"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -700,7 +700,7 @@
           "C": "d // e",
           "D": "d // a"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -740,7 +740,7 @@
           "C": "4,75 artar",
           "D": "4,75 azalır"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -757,7 +757,7 @@
           "C": "48",
           "D": "68"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -774,36 +774,13 @@
           "C": "31",
           "D": "19"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
         "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q4.png",
         "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
         "ipucu_ai": "Verilen grafikte çilek seven öğrencilerin sayısını ve toplam öğrenci sayısını bul, sonra yüzdeyi hesapla."
-      },
-      {
-        "soruNo": 5,
-        "soruMetni": "Sınıf",
-        "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": ""
-        },
-        "dogruCevap": "B",
-        "durum": "BOZUK",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş",
-          "D şıkkı boş",
-          "soru metni çok kısa veya boş"
-        ],
-        "kaynak": "mistral_ocr",
-        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
-        "ipucu_ai": "Verilen grafikteki verileri oku, sorunun hangi verileri karşılaştırdığını belirle."
       },
       {
         "soruNo": 5,
@@ -814,35 +791,13 @@
           "C": "25",
           "D": "30"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
         "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
         "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
         "ipucu_ai": "Grafikte muz ve elma seven öğrencilerin sayılarını topla, toplam öğrenci sayısına oranla yüzdeyi hesapla."
-      },
-      {
-        "soruNo": 5,
-        "soruMetni": "Sınıf\n\nMatematik\n\nBasım: Teşekkeli Tezli",
-        "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": ""
-        },
-        "dogruCevap": "A",
-        "durum": "BOZUK",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş",
-          "D şıkkı boş"
-        ],
-        "kaynak": "mistral_ocr",
-        "soruGorselPath": "data/question_crops/01221225_Matematik_5_-_KazanYm_Tarama_Testi_-5/q5.png",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
-        "ipucu_ai": "Grafikteki verileri oku, \"sınıf\" ve \"matematik\" seven öğrencilerin sayılarını topla, toplam öğrenci sayısına oranla yüzdeyi hesapla."
       },
       {
         "soruNo": 6,
@@ -853,7 +808,7 @@
           "C": "7,75",
           "D": "9,25"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -904,7 +859,7 @@
           "C": "$\\frac{13}{25}$",
           "D": "$\\frac{16}{25}$"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -944,7 +899,7 @@
           "C": "Gönye",
           "D": "Pergel"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -961,7 +916,7 @@
           "C": "Doğru",
           "D": "Doğru Parçası"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -995,7 +950,7 @@
           "C": "KL ⊥ MN",
           "D": "[KL] ⊥ [MN]"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1012,7 +967,7 @@
           "C": "3 birim sağının 2 birim yukarısında",
           "D": "3 birim solunun 2 birim aşağısında\n\nS. Emri\n\nMatematik\n\nBasım Tırını Yeri"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1029,7 +984,7 @@
           "C": "F",
           "D": "N"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1080,7 +1035,7 @@
           "C": "4",
           "D": "5\n\nE. Ömer\n\nMatematik\n\nCeren Tema Yeri"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1120,7 +1075,7 @@
           "C": "4",
           "D": "5"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1137,7 +1092,7 @@
           "C": "10,90 azalır",
           "D": "10,90 artar"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1154,7 +1109,7 @@
           "C": "0,72",
           "D": "18,28"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1171,7 +1126,7 @@
           "C": "$\\frac{7}{20}$",
           "D": "$\\frac{3}{20}$"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1188,7 +1143,7 @@
           "C": "45",
           "D": "50"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1205,7 +1160,7 @@
           "C": "%85",
           "D": "%100"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1239,7 +1194,7 @@
           "C": "$\\frac{15}{25}$",
           "D": "$\\frac{17}{25}$"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1256,7 +1211,7 @@
           "C": "180",
           "D": "170"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "TEMİZ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1273,7 +1228,7 @@
           "C": "98",
           "D": "90"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1296,7 +1251,7 @@
           "C": "Dar Açı",
           "D": "Geniş Açı"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1313,7 +1268,7 @@
           "C": "2 birim kuzeyinin 1 birim batısında",
           "D": "1 birim kuzeyinin 2 birim doğusunda"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1330,7 +1285,7 @@
           "C": "İşin",
           "D": "Nokta"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1364,7 +1319,7 @@
           "C": "VRTPS",
           "D": "TRSPV\n\nS. Emet\n\nMatematik\n\nBasım Tansit Yeri"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
