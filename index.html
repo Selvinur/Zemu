@@ -67,6 +67,42 @@
       font-weight: 600;
     }
 
+    /* ── Sınıf Seçimi ────────────────── */
+    .sinif-selector {
+      display: flex;
+      gap: 12px;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+      background: var(--bg-card);
+      padding: 6px;
+      border-radius: 30px;
+      border: 1px dashed var(--border);
+    }
+    
+    .sinif-btn {
+      background: transparent;
+      color: var(--text-secondary);
+      border: none;
+      border-radius: 20px;
+      padding: 6px 16px;
+      font-size: 13px;
+      font-weight: 600;
+      font-family: inherit;
+      cursor: pointer;
+      transition: all 0.2s ease;
+    }
+    
+    .sinif-btn:hover {
+      color: var(--text-primary);
+    }
+    
+    .sinif-btn.active {
+      background: var(--accent);
+      color: white;
+      box-shadow: 0 4px 12px var(--accent-glow);
+    }
+
     /* ── Test Seçimi ────────────────── */
     .test-selector {
       display: flex;
@@ -797,6 +833,7 @@
       <button class="btn-geri" id="derslereDonBtn">🔙 Derslere Dön</button>
     </div>
     
+    <div class="sinif-selector" id="sinifSelector" style="display: none;"></div>
     <div class="test-selector" id="testSelector"></div>
 
     <div class="kart" id="kart">
@@ -859,6 +896,7 @@
 
   <script>
     // ── DOM Elemanları ────────────────────
+    const sinifSelector = document.getElementById("sinifSelector");
     const testSelector = document.getElementById("testSelector");
     const yukleniyorEl = document.getElementById("yukleniyor");
     const icerikEl = document.getElementById("icerik");
@@ -883,6 +921,7 @@
     let aktifTestIndex = 0;
     let aktifTest = null;
     let aktifSoruIndex = 0;
+    let aktifSinif = 5;
     let soru = null;
     let secilenCevap = "";
     let cevapKilitli = false;
@@ -1005,6 +1044,17 @@
       return name.replace(/\s+/g, ' ').trim();
     }
 
+    // ── Sınıf Belirleme Yardımcı Fonksiyonu ──
+    function getTestSinif(test) {
+      const rawName = test.testAdi || test.testId || "";
+      // Matematik_5, Matematik_6, Matematik_7 örüntülerini yakala
+      const match = rawName.match(/Matematik_?(\d+)/i);
+      if (match) {
+        return parseInt(match[1], 10);
+      }
+      return 5; // Varsayılan 5. sınıf
+    }
+
     // ── Test Sıralayıcı Yardımcı Fonksiyon ──
     function getTestSira(test) {
       const rawName = test.testAdi || test.testId || "";
@@ -1013,22 +1063,62 @@
       return match ? parseInt(match[0], 10) : 999;
     }
 
+    // ── Sınıfları ve Testleri Göster ──────────
+    function siniflariVeTestleriGoster() {
+      // Mevcut sınıfları bul
+      const siniflar = [...new Set(testler.map(t => getTestSinif(t)))].sort((a, b) => a - b);
+      
+      if (siniflar.length > 1) {
+        sinifSelector.style.display = "flex";
+        sinifSelector.innerHTML = "";
+        siniflar.forEach(s => {
+          const btn = document.createElement("button");
+          btn.className = "sinif-btn" + (s === aktifSinif ? " active" : "");
+          btn.textContent = `${s}. Sınıf`;
+          btn.addEventListener("click", () => {
+            aktifSinif = s;
+            document.querySelectorAll(".sinif-btn").forEach(el => el.classList.remove("active"));
+            btn.classList.add("active");
+            testleriGoster();
+            
+            // Filtrelenen ilk testi aktif yap
+            const sinifTestleri = testler.filter(t => getTestSinif(t) === aktifSinif);
+            if (sinifTestleri.length > 0) {
+              aktifTest = sinifTestleri[0];
+              aktifSoruIndex = 0;
+              skor = { dogru: 0, yanlis: 0 };
+              skoruGuncelle();
+              soruyuGoster();
+            }
+          });
+          sinifSelector.appendChild(btn);
+        });
+      } else {
+        sinifSelector.style.display = "none";
+      }
+      
+      testleriGoster();
+    }
+
     // ── Test Seçimi ──────────────────────
     function testleriGoster() {
       testSelector.innerHTML = "";
-      testler.forEach((test, i) => {
+      
+      // Sadece aktif sınıfa ait testleri filtrele
+      const sinifTestleri = testler.filter(t => getTestSinif(t) === aktifSinif);
+      
+      sinifTestleri.forEach((test, idx) => {
         const btn = document.createElement("button");
-        btn.className = "test-btn" + (i === aktifTestIndex ? " active" : "");
+        const isAktif = test.testId === aktifTest.testId;
+        btn.className = "test-btn" + (isAktif ? " active" : "");
         btn.textContent = formatTestAdi(test.testAdi);
-        btn.id = `test-btn-${i}`;
         btn.addEventListener("click", () => {
-          aktifTestIndex = i;
-          aktifTest = testler[i];
+          aktifTest = test;
           aktifSoruIndex = 0;
           skor = { dogru: 0, yanlis: 0 };
           skoruGuncelle();
           soruyuGoster();
-          // Aktif buton stilini güncelle
+          
           document.querySelectorAll(".test-btn").forEach(el => el.classList.remove("active"));
           btn.classList.add("active");
         });
@@ -1059,9 +1149,10 @@
         testler.sort((a, b) => getTestSira(a) - getTestSira(b));
 
         aktifTest = testler[0];
+        aktifSinif = getTestSinif(aktifTest);
         aktifSoruIndex = 0;
 
-        testleriGoster();
+        siniflariVeTestleriGoster();
 
         yukleniyorEl.style.display = "none";
         icerikEl.style.display = "block";
@@ -1072,7 +1163,7 @@
           <div style="color: var(--red);">
             ⚠️ Veri yüklenemedi<br>
             <span style="font-size:13px; color: var(--text-secondary);">
-              tests_with_images.json bulunamadı. Önce scriptleri çalıştırın.
+              tests_with_hints.json bulunamadı. Önce scriptleri çalıştırın.
             </span>
           </div>
         `;

@@ -1,0 +1,20 @@
+{
+  "testAdi": "Matematik_7_-Kazanım_Tarama_Testi_-1",
+  "sayfaSayisi": 2,
+  "gorselHaritasi": {
+    "img-0.jpeg": "data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img0.jpg",
+    "img-1.jpeg": "data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img1.jpg"
+  },
+  "sayfalar": [
+    {
+      "sayfaNo": 0,
+      "markdown": "KAZANIM KAVRAMA TESTİ\n\n7. Sınıf Matematik\n\n# Tam Sayılarla İşlemler - 1\n\n1. –29’dan büyük 30’dan küçük tam sayıların toplamı kaçtır?\n\nA) 0\n\nB) 1\n\nC) 29\n\nD) 30\n\n2.\n\n![img-0.jpeg](data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img0.jpg)\n\nVerilen sayı doğrusu üzerinde modellenen işlem aşağıdakiğinden hangisidir?\n\nA) $(+3) + (-5)$\n\nB) $(-3) + (-5)$\n\nC) $(+3) + (+5)$\n\nD) $(+3) - (-5)$\n\n3. Aşağıdaki eşitliklerden hangisi yanlıştır?\n\nA) $(+6) \\cdot (-1) = (-6)$\n\nB) $(-17) : (-1) = (+17)$\n\nC) $(-2) \\cdot (+3) = (+6)$\n\nD) $(+10) : (-2) = (-5)$\n\n4. Aşağıdaki karelerin içine birer tam sayı, çemberlerin içine ise (+) ya da (·) sembollerinden biri yazılacaktır.\n\n![img-1.jpeg](data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img1.jpg)\n\nÇemberlerin içindeki işlem o çemberin üstündeki iki karenin içindeki sayılara uygulanıp elde edilen sonuç o çemberin altındaki kareye yazılarak yukarıdaki şema oluşturuluyor.\n\nVerilen şemada A ve C yerine yazılması gereken tam sayılar ve B yerine yazılması gereken işlem hangi seçenekte doğru olarak verilmiştir?\n\n|  A | B | C  |\n| --- | --- | --- |\n|  A) 2 | + | -4  |\n|  B) -4 | + | 32  |\n|  C) 2 | · | -4  |\n|  D) -4 | · | -32  |\n\n5. $(-20) : (+4) + (-1) \\cdot (-6)$ işleminin sonucu kaçtır?\n\nA) 11\n\nB) 1\n\nC) -1\n\nD) -11\n\n6. $(+5) + \\triangle = 0$\n\n$[(+2) + (-7)] + \\square = (+2) + [(-7) + (+6)]$\n\nYukarıdaki eşitliklere göre, $\\triangle - \\square$ kaçtır?\n\nA) -11\n\nB) -5\n\nC) 1\n\nD) 6",
+      "gorselSayisi": 2
+    },
+    {
+      "sayfaNo": 1,
+      "markdown": "KAZANIM TANITASI\n\n1\n\n7. Sinif Matematik\n\nTam Sayılarla İşlemler - 1\n\n7. $(-6) \\square (-2) \\square (-8) \\square (-4) = 16$\n\nYukarıdaki eşitliğin doğru olması için □'lerin yerine (+), (-), (·), (:) sembollerinden hangileri sırasıyla yazılmalıdır?\n\nA) ·, +, −\n\nB) ·, −, +\n\nC) :, −, •\n\nD) :, +, −\n\n10. $(-1)^{6} + (-2)^{2} = A$\n\n$(-3)^{1} + (-1)^{7} = B$\n\nYukarıdaki eşitliklere göre, A·B kaçtır?\n\nA) 100\n\nB) 70\n\nC) −20\n\nD) −50\n\n8. $|(-11) - (-7)| - |10 : (-2)|$\n\nişleminin sonucu kaçtır?\n\nA) 13\n\nB) 9\n\nC) 1\n\nD) −1\n\n11. $(-2)^{3} &lt; M &lt; (-1)^{4}$ olduğuna göre, M yerine yazılabilecek kaç tane tam sayı vardır?\n\nA) 6\n\nB) 8\n\nC) 9\n\nD) 10\n\n9. $| \\Delta | = 5$ ve $|\\square| = 3$\n\nolduğuna göre, $\\Delta - \\square$ 'nin en küçük değeri kaçtır?\n\nA) −8\n\nB) −3\n\nC) −2\n\nD) 2\n\n12. $[-2^{0} - (-3)^{2}] : [(-2^{2}) - (-5)^{0}]$\n\nişleminin sonucu kaçtır?\n\nA) −4\n\nB) −2\n\nC) 2\n\nD) 4",
+      "gorselSayisi": 0
+    }
+  ]
+}

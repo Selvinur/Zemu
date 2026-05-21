@@ -12,7 +12,7 @@
           "C": "ABDCE",
           "D": "BAECD"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q1.png",
         "bozukSebepleri": [],
@@ -29,7 +29,7 @@
           "C": "Köşe",
           "D": "Köşegen"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q2.png",
         "bozukSebepleri": [],
@@ -46,7 +46,7 @@
           "C": "72°",
           "D": "82° D 118° ?"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q3.png",
         "bozukSebepleri": [],
@@ -63,7 +63,7 @@
           "C": "Bu ilde tedavi gören hastaların sayısı ne kadardır?",
           "D": "Bu ilde okul sayısı ne kadardır?"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "TEMİZ",
         "soruGorselPath": null,
         "bozukSebepleri": [],
@@ -80,7 +80,7 @@
           "C": "Aylar Turist Sayısı Haziran 400.000 Temmuz 410.000 Ağustos 450.000",
           "D": ""
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q5.png",
         "bozukSebepleri": [
@@ -99,7 +99,7 @@
           "C": "Salı",
           "D": "Pazartesi"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q6.png",
         "bozukSebepleri": [],
@@ -133,7 +133,7 @@
           "C": "",
           "D": "2 Sayı karenin içine yazılırsa en küçük rakam pay, en büyük rakam paydadır. Sayı Sayı üçgenin içine yazılırsa en büyük rakam ile en küçük rakam arasındaki fark pay, en küçük rakam paydadır. Örneğin: 74 7 4 61 1 61 1 5- = 96 365 3 5 2 5 3 4"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "D",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q8.png",
         "bozukSebepleri": [
@@ -155,7 +155,7 @@
           "C": "I ve IV",
           "D": "II ve IV"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q9.png",
         "bozukSebepleri": [],
@@ -172,7 +172,7 @@
           "C": "720 MB",
           "D": "560 MB"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "soruGorselPath": "data/question_crops/30233234_Matematik_5_-_KazanYm_Tarama_Testi_-2/q10.png",
         "bozukSebepleri": [],
@@ -212,7 +212,7 @@
           "C": "%75",
           "D": "%100 A) 1 B) 2 C) 3 D) 4"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q2.png",
         "bozukSebepleri": [
@@ -231,7 +231,7 @@
           "C": "",
           "D": ""
         },
-        "dogruCevap": "B",
+        "dogruCevap": "D",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q3.png",
         "bozukSebepleri": [
@@ -250,7 +250,7 @@
           "C": "3600",
           "D": "4200"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "A",
         "durum": "TEMİZ",
         "soruGorselPath": null,
         "bozukSebepleri": [],
@@ -267,7 +267,7 @@
           "C": "",
           "D": "KL MN' KL MN'55 ?? KL MN= KL MN=55 ?? Birim kareli kağıtta Ali ile Veli’nin konumları gösterilmektedir. Buna göre Ali’nin Veli’ye göre konumu aşağıdakilerden hangisidir? A) 2 birim batısının 3 birim güneyinde B) 2 birim doğusunun 3 birim kuzeyinde C) 3 birim doğusunun 2 birim güneyinde D) 3 birim batısının 2 birim kuzeyinde"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q5.png",
         "bozukSebepleri": [
@@ -290,7 +290,7 @@
           "C": "",
           "D": ""
         },
-        "dogruCevap": "B",
+        "dogruCevap": "D",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q6.png",
         "bozukSebepleri": [
@@ -309,7 +309,7 @@
           "C": "",
           "D": "AB ile CD5 5? ? AB ile EF55 ?? AB ile HG5 5? ? EF ile HG5 5? ?"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q7.png",
         "bozukSebepleri": [
@@ -347,7 +347,7 @@
           "C": "",
           "D": "KLM% MKL%LUMLK%"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "C",
         "durum": "BOZUK",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q9.png",
         "bozukSebepleri": [
@@ -395,7 +395,7 @@
           "C": "AEFDCB",
           "D": "DEFBAC"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -412,7 +412,7 @@
           "C": "Köşe",
           "D": "İç Açı"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -429,7 +429,7 @@
           "C": "105°, 90°",
           "D": "90°, 95°\n\nS. Emri\n\nMatematik\n\nBasım: Teşekkeli Tezli\n\n#"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -446,7 +446,7 @@
           "C": "Marmara bölgesinde kaç tane şehir vardır?",
           "D": "Ayşe'nin annesinin adı nedir?"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -463,7 +463,7 @@
           "C": "Messi ve Suarez arasındaki gol farkı 3'tür.",
           "D": "Messi, Ronaldo'dan 2 gol fazla atmıştır."
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -480,7 +480,7 @@
           "C": "8",
           "D": "10"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -497,7 +497,7 @@
           "C": "Otomobil",
           "D": "Feribot"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -514,7 +514,7 @@
           "C": "$\\frac{15}{4}$",
           "D": "$\\frac{13}{4}$"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -531,7 +531,7 @@
           "C": "$851\\ \\mathrm{cm} = 8\\ \\mathrm{m}\\ 51\\ \\mathrm{cm}$",
           "D": "$1\\ \\mathrm{km}\\ 8\\ \\mathrm{m} = 1080\\ \\mathrm{m}$\n\nE. Ömer\n\nMatematik\n\nBasım: Teşekkeli Tezli"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -548,7 +548,7 @@
           "C": "420 MB",
           "D": "560 MB\n\n\n\nYalova Ölçme Değerlendirme Merkezi\n\n1-A, 2-B, 3-D, 4-B, 5-C, 6-A, 7-A, 8-C, 9-D, 10-B"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -571,7 +571,7 @@
           "C": "4,5 Artar",
           "D": "4,5 Azalır"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -639,7 +639,7 @@
           "C": "KL ⊥ MN",
           "D": "[KL] ⊥ [MN]"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -656,7 +656,7 @@
           "C": "2 birim kuzeyinin 1 birim batısında",
           "D": "1 birim kuzeyinin 2 birim doğusunda\n\nS. Emet\n\nMatematik\n\nResme Tema Yeri"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -673,7 +673,7 @@
           "C": "[AB] ile [CD]",
           "D": "[EF] ile [HG]"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -690,7 +690,7 @@
           "C": "100",
           "D": "110"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -707,7 +707,7 @@
           "C": "$\\widehat{\\mathrm{C}}$",
           "D": "$\\widehat{\\mathrm{BAC}}$"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -724,7 +724,7 @@
           "C": "d // e",
           "D": "d // a"
         },
-        "dogruCevap": "D",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -747,7 +747,7 @@
           "C": "4",
           "D": "5"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -764,7 +764,7 @@
           "C": "4,75 artar",
           "D": "4,75 azalır"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -781,7 +781,7 @@
           "C": "48",
           "D": "68"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -798,7 +798,7 @@
           "C": "31",
           "D": "19"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -815,7 +815,7 @@
           "C": "",
           "D": ""
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "BOZUK",
         "bozukSebepleri": [
           "A şıkkı boş",
@@ -838,7 +838,7 @@
           "C": "25",
           "D": "30"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -855,7 +855,7 @@
           "C": "",
           "D": ""
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "BOZUK",
         "bozukSebepleri": [
           "A şıkkı boş",
@@ -877,7 +877,7 @@
           "C": "7,75",
           "D": "9,25"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -894,7 +894,7 @@
           "C": "12,08",
           "D": "14,02"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -911,7 +911,7 @@
           "C": "105",
           "D": "110"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -928,7 +928,7 @@
           "C": "$\\frac{13}{25}$",
           "D": "$\\frac{16}{25}$"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -945,7 +945,7 @@
           "C": "290",
           "D": "285"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -968,7 +968,7 @@
           "C": "Gönye",
           "D": "Pergel"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -985,7 +985,7 @@
           "C": "Doğru",
           "D": "Doğru Parçası"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1002,7 +1002,7 @@
           "C": "270",
           "D": "360"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1019,7 +1019,7 @@
           "C": "KL ⊥ MN",
           "D": "[KL] ⊥ [MN]"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1036,7 +1036,7 @@
           "C": "3 birim sağının 2 birim yukarısında",
           "D": "3 birim solunun 2 birim aşağısında\n\nS. Emri\n\nMatematik\n\nBasım Tırını Yeri"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1053,7 +1053,7 @@
           "C": "F",
           "D": "N"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1070,7 +1070,7 @@
           "C": "Köse",
           "D": "İç Açı"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1087,7 +1087,7 @@
           "C": "[AB] ile [CD]",
           "D": "[EF] ile [HG]"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1104,7 +1104,7 @@
           "C": "4",
           "D": "5\n\nE. Ömer\n\nMatematik\n\nCeren Tema Yeri"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1121,7 +1121,7 @@
           "C": "13,8",
           "D": "15,2\n\n1-A, 2-B, 3-A, 4-C, 5-D, 6-C, 7-A, 8-B, 9-B, 10-D"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1144,7 +1144,7 @@
           "C": "4",
           "D": "5"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1161,7 +1161,7 @@
           "C": "10,90 azalır",
           "D": "10,90 artar"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1178,7 +1178,7 @@
           "C": "0,72",
           "D": "18,28"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1195,7 +1195,7 @@
           "C": "$\\frac{7}{20}$",
           "D": "$\\frac{3}{20}$"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1212,7 +1212,7 @@
           "C": "45",
           "D": "50"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1229,7 +1229,7 @@
           "C": "%85",
           "D": "%100"
         },
-        "dogruCevap": "",
+        "dogruCevap": "D",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1246,7 +1246,7 @@
           "C": "9,25",
           "D": "10,75"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1263,7 +1263,7 @@
           "C": "$\\frac{15}{25}$",
           "D": "$\\frac{17}{25}$"
         },
-        "dogruCevap": "",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1280,7 +1280,7 @@
           "C": "180",
           "D": "170"
         },
-        "dogruCevap": "",
+        "dogruCevap": "B",
         "durum": "TEMİZ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1297,7 +1297,7 @@
           "C": "98",
           "D": "90"
         },
-        "dogruCevap": "",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1320,7 +1320,7 @@
           "C": "Dar Açı",
           "D": "Geniş Açı"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "B",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1337,7 +1337,7 @@
           "C": "2 birim kuzeyinin 1 birim batısında",
           "D": "1 birim kuzeyinin 2 birim doğusunda"
         },
-        "dogruCevap": "C",
+        "dogruCevap": "A",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1354,7 +1354,7 @@
           "C": "İşin",
           "D": "Nokta"
         },
-        "dogruCevap": "B",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1388,7 +1388,7 @@
           "C": "VRTPS",
           "D": "TRSPV\n\nS. Emet\n\nMatematik\n\nBasım Tansit Yeri"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "C",
         "durum": "GÖRSEL_İÇERİKLİ",
         "bozukSebepleri": [],
         "kaynak": "mistral_ocr",
@@ -1480,6 +1480,880 @@
         "soruGorselPath": "data/question_crops/01221543_Matematik_5_-_KazanYm_Tarama_Testi_-8/q10.png",
         "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
         "ipucu_ai": "Cetvelde eksik aralıklar olduğunda ölçümler tam sayı olmayabilir."
+      }
+    ]
+  },
+  {
+    "testId": "24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2",
+    "testAdi": "24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "![img-0.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa0_img0.jpg)\n\nYukarıda verilen açıyı aşağıdaki gösterimlerden hangisi ile gösteremeyiz?",
+        "secenekler": {
+          "A": "YLV",
+          "B": "VLY",
+          "C": "LÝV",
+          "D": "L"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q1.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Bir açıyı gösterirken ortadaki harf, açının köşe noktasını temsil eder."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "![img-1.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa0_img1.jpg)\n\nYukarıda verilenlere göre aşağıdaki dikkerden hangisi doğrudur?",
+        "secenekler": {
+          "A": "AÊB geniş açıdır.",
+          "B": "m(AÊC) = 100°'dir.",
+          "C": "m(BÊD) = 120°'dir.",
+          "D": "AÊB ile BÊC komşu açılardır."
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q2.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Ölçüsü 90°’den büyük olan açılar geniş açıdır."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "![img-2.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa0_img2.jpg)\n\nYukarıdaki verilen şekle göre CËD açısı ile aşağıdaki açılardan hangisi komşu açıdır?",
+        "secenekler": {
+          "A": "AÊE",
+          "B": "BÊC",
+          "C": "AÊD",
+          "D": "BÊA"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q3.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Komşu açılar, ortak bir kenarı ve köşesi olan, birbirine bitişik iki açıdır."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Komşu tümler iki açıdan biri diğerinin 4 katı ise bu açılardan küçük olanı kaç derecedir?",
+        "secenekler": {
+          "A": "25",
+          "B": "20",
+          "C": "18",
+          "D": "15"
+        },
+        "dogruCevap": "C",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Tümler açıların toplamı 90°'dir."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Komşu bütünler iki açıdan biri diğerinin 3 katından 20 fazladır.\n\nBu açılardan büyük olanı kaç derecedir?",
+        "secenekler": {
+          "A": "140",
+          "B": "130",
+          "C": "120",
+          "D": "110"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q5.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Bütünler açıların toplamı 180°'dir."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Bütünleri ile tümlerinin 4 katının 30 eksiği olan açı kaç derecedir?",
+        "secenekler": {
+          "A": "40",
+          "B": "50",
+          "C": "60",
+          "D": "80"
+        },
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Bir açının tümleri (90 - x), bütünleri ise (180 - x) şeklinde ifade edilir. Açının bütünlerinin, tümlerinin 4 katından 30 eksik olduğunu gösteren denklemi kurmayı dene!"
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "Bütünleri ile tümlerinin toplamı 210° olan açı kaç derecedir?",
+        "secenekler": {
+          "A": "30",
+          "B": "40",
+          "C": "60",
+          "D": "80"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q7.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Bütünleri ve tümleri arasındaki ilişkiyi inceleyerek başla."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "[AB ile |AD ışınlarının oluşturduğu açı aşağıdaki-lerden hangisi değildir?",
+        "secenekler": {
+          "A": "BAD",
+          "B": "DAB",
+          "C": "A",
+          "D": "ABD"
+        },
+        "dogruCevap": "D",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Açıyı gösterirken ortadaki harf, açının köşe noktasını temsil eder."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "![img-3.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa1_img0.jpg)\n\nYukarıda verilen şekilde A, E ve D noktaları doğrudaş noktalar, |EB, AEC'nin açıcıtayı ve m(CED) = 74° dir.\n\nBuna göre m(BEC) kaç derecedir?",
+        "secenekler": {
+          "A": "37",
+          "B": "43",
+          "C": "53",
+          "D": "56"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q9.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "A, E, D doğrusal noktalar olduğu için doğru açı 180 derecedir. m(AEC) açısını bulmak için 180'den 74'ü çıkarabilirsin. EB ışını AEC açısının açıortayı olduğuna göre, bulduğun açıyı ikiye bölmelisin."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "Birinin ölçüsü diğerinin ölçüsünün 2 katından 30 eksik olan bütünler iki açıdan büyük açıyla küçük açının farkı kaçtır?",
+        "secenekler": {
+          "A": "40",
+          "B": "60",
+          "C": "70",
+          "D": "80"
+        },
+        "dogruCevap": "A",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Bütünler açıların toplamı 180°'dir."
+      },
+      {
+        "soruNo": 11,
+        "soruMetni": "![img-4.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa1_img1.jpg)\n\nAD, BE, CF doğruları T noktasında kesismektedir. m(FTE) = 64°, m(CTD) = 68° dir.\n\nBuna göre m(ATB) kaç derecedir?",
+        "secenekler": {
+          "A": "52",
+          "B": "54",
+          "C": "56",
+          "D": "58"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q11.png",
+        "ipucu": "Kesirde payın ve paydanın neyi temsil ettiğini düşün. İşlem yapmadan önce verilen kurala göre kesri oluştur.",
+        "ipucu_ai": "İpucu: Tümler açıların toplamı 90°'dir."
+      },
+      {
+        "soruNo": 12,
+        "soruMetni": "![img-5.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa1_img2.jpg)\n\nYukarıdaki A, F, D ve C, F, E noktaları kendi arasında doğrudaş noktalarıdır.\n\nBuna göre aşağıdakilerden hangisi doğrudur?",
+        "secenekler": {
+          "A": "BFC ile BFA bütünler açılardır.",
+          "B": "BFA ile DFE ters açılardır.",
+          "C": "CFD ile AFB ters açılardır.",
+          "D": "AFE ile BFC tümler açılardır."
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q12.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Ters açıların ölçüleri birbirine eşittir."
+      },
+      {
+        "soruNo": 13,
+        "soruMetni": "![img-6.jpeg](data/images/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/sayfa1_img3.jpg)\n\nYukarıdaki şekilde B, C, E noktaları doğrudaş, ABC üçgeni eşkenar üçgen ve m(DCE) = 43° dir.\n\nBuna göre, ACD açısının ölçüsü kaç derecedir?",
+        "secenekler": {
+          "A": "79",
+          "B": "77",
+          "C": "73",
+          "D": "70"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24020519_Matematik_6_-_KazanYm_Tarama_Testi_-2/q13.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "İpucu: Eşkenar üçgenin tüm iç açıları 60°'dir."
+      }
+    ]
+  },
+  {
+    "testId": "24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1",
+    "testAdi": "24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "Yalova Belediyesi, belediyenin logosunu değiştirmek istemektedir.\n\nBu sebepten düzenlediği tasarım yarışması sonucunda üç tane logoyu finale bırakmıştır.\n\nBuna göre, birinci logonun belirlenebilmesi için aşağıdaki bilgi toplama yöntemlerinden hangisini kullanması daha uygundur?",
+        "secenekler": {
+          "A": "Örnekleme",
+          "B": "Rastgele Seçme",
+          "C": "Anket Yapma",
+          "D": "Genelleme"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q1.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Öğrenciye ipucu: \"Logonun en beğenilen olmasını istiyorsan, insanların fikirlerini doğrudan alman gerekir.\""
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "8, 1, 13, 7, 5, 21, 12, 15, 17\n\nYukarıdaki veri grubunun açıklığı kaçtır?",
+        "secenekler": {
+          "A": "15",
+          "B": "17",
+          "C": "19",
+          "D": "20"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q2.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Veri grubunun en büyük ve en küçük değerini bul, sonra birbirinden çıkar."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "22, 8, 13, 15, B, 4\n\nYukarıdaki veri grubunun açıklığının 19 olabilmesi için B yerine yazılabilecek değerlerin toplamı kaçtır?",
+        "secenekler": {
+          "A": "23",
+          "B": "24",
+          "C": "26",
+          "D": "27"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q3.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Veri grubunun açıklığı 19 olduğuna göre, en büyük değer ile en küçük değer arasındaki fark 19 olmalıdır."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Mehmet Can'ın matematik dersi yazılı notları 92, 84 ve 97'dir.\n\nBuna göre, Mehmet Can'ın bu üç sınavının aritmetik ortalaması kaçtır?",
+        "secenekler": {
+          "A": "91",
+          "B": "90",
+          "C": "89",
+          "D": "87"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q4.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Notları topla, sonra kaç sınav olduğunu bul ve sonucu sınav sayısına böl."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "Yalova Ölçme Değerlendirme Merkezi\n\n![img-0.jpeg](data/images/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/sayfa0_img0.jpg)\n\nYukarıdaki grafikte Yalova ilinin 13-19 nisan 2020 tarihindeki sıcaklıkları verilmiştir.\n\nBuna göre, Yalova'nın bu haftaki sıcaklık ortalaması 13 °C olduğuna göre Pazar günkü hava sıcaklığı kaç derece ölçülmüştür?",
+        "secenekler": {
+          "A": "17",
+          "B": "15",
+          "C": "13",
+          "D": "11"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q5.png",
+        "ipucu": "Grafikte verilen değerleri dikkatlice oku. En büyük, en küçük ya da karşılaştırma isteyen ifadeleri seçeneklerle eşleştir.",
+        "ipucu_ai": "Grafikteki sıcaklıkları topla, 6 günlük ortalamayı bul, sonra 13°C olan haftalık ortalamadan çıkar."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "Ağırlıklarının ortalaması 62 kg olan 3 kişilik bir gruba 52 kg olan bir kişi daha katılırsa grubun yeni ortalaması kaç kg olur?",
+        "secenekler": {
+          "A": "55",
+          "B": "57,5",
+          "C": "59,5",
+          "D": "61"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q6.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Toplam ağırlığı ve kişi sayısını bul, sonra yeni ortalamayı hesapla."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "Batuhan, Türkçe sınavlarından 72 ve 84 almıştır.\n\nÖğretmeni ders içi performans notuna kaç puan verirse notlarının aritmetik ortalaması 80 olur?",
+        "secenekler": {
+          "A": "80",
+          "B": "81",
+          "C": "83",
+          "D": "84"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q7.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Toplam puanları ve ders sayısını bul, sonra gerekli puanı hesapla."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Aritmetik ortalaması 45 olan bir veri grubuna 45 sayısı eklendiğinde ortalama nasıl değişir?",
+        "secenekler": {
+          "A": "Artar",
+          "B": "Azalır",
+          "C": "Değişmez",
+          "D": "Yorum yapılamaz"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q8.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Toplamı ve veri sayısını bul, yeni ortalamayı hesapla."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "Yaşlarının aritmetik ortalaması 26 olan 15 kişilik bir gruptan 12 yaşındaki Begüm ayrılıyor.\n\nKalan kişilerin yaş ortalaması aşağıdakiğinden hangisidir?",
+        "secenekler": {
+          "A": "29",
+          "B": "27",
+          "C": "25",
+          "D": "24"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q9.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Toplam yaşları bulmak için grup sayısını ortalama yaşla çarp. Ardından Begüm'ün yaşını çıkar ve kalan kişi sayısına böl."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "| SINIF | MEVCUT |\n| --- | --- |\n| 6-A | 21 |\n| 6-B | 23 |\n| 6-C | 24 |\n| 6-D | 25 |\n| 6-E | 20 |\n\nYalova Merkez Ortaokulu'nun 6. Sınıf mevcutları yukarıdaki tabloda gösterilmiştir.\n\nBuna göre 6. sınıfların aritmetik ortalaması kaçtır?",
+        "secenekler": {
+          "A": "21,3",
+          "B": "21,8",
+          "C": "22,4",
+          "D": "22,6"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q10.png",
+        "ipucu": "Tablodaki satır ve sütun başlıklarına dikkat et. Verilen bilgileri seçeneklerdeki tabloyla karşılaştır.",
+        "ipucu_ai": "Toplam öğrenci sayısını ve toplam mevcutları bul, sonra ortalamayı hesapla."
+      },
+      {
+        "soruNo": 11,
+        "soruMetni": "Voleybol ve basketbol seven öğrenci sayısı kaçtır?",
+        "secenekler": {
+          "A": "74",
+          "B": "70",
+          "C": "68",
+          "D": "64"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q11.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Toplam öğrenci sayısından futbol sevenleri çıkar, kalanlardan hem voleybol hem basketbol sevenleri topla."
+      },
+      {
+        "soruNo": 12,
+        "soruMetni": "Voleybol seven kız öğrencilerin tüm 6. sınıf öğrencilerine oranı kaçtır?",
+        "secenekler": {
+          "A": "1/6",
+          "B": "1/5",
+          "C": "1/4",
+          "D": "1/3"
+        },
+        "dogruCevap": "D",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Toplam öğrenci sayısına ve voleybol seven kız öğrenci sayısına ihtiyacın var. Oranı bulmak için voleybol seven kız öğrenci sayısını toplam öğrenci sayısına bölmelisin."
+      },
+      {
+        "soruNo": 13,
+        "soruMetni": "Tabloya göre aşağıdakiğinden hangisi söylenemez?",
+        "secenekler": {
+          "A": "Tüm 6. sınıf öğrencilerinin sayısı, basketbol seven erkek öğrencilerin sayısının 5 katıdır.",
+          "B": "Futbol seven erkek öğrenci sayısı, voleybol seven-lerden fazladır.",
+          "C": "Basketbol seven erkek öğrenci sayısı, basketbol seven kız öğrenci sayısının 3/2 katıdır.",
+          "D": "Futbol seven kız öğrenci sayısı, voleybol seven erkek öğrenci sayısından 1 fazladır."
+        },
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Tablodaki satır ve sütun başlıklarına dikkat et. Verilen bilgileri seçeneklerdeki tabloyla karşılaştır.",
+        "ipucu_ai": "Verilen sayıları ve oranları dikkatlice karşılaştır."
+      },
+      {
+        "soruNo": 14,
+        "soruMetni": "Grafikteki verilere göre üç yılın turist ortalaması kaçtır?",
+        "secenekler": {
+          "A": "75000",
+          "B": "78000",
+          "C": "80000",
+          "D": "82000"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q14.png",
+        "ipucu": "Grafikte verilen değerleri dikkatlice oku. En büyük, en küçük ya da karşılaştırma isteyen ifadeleri seçeneklerle eşleştir.",
+        "ipucu_ai": "Üç yılın toplam turist sayısını 3'e böl."
+      },
+      {
+        "soruNo": 15,
+        "soruMetni": "Grafikteki verilere göre üç yılın toplam yerli turist sayısının, toplam turist sayısına oranı kaçtır?",
+        "secenekler": {
+          "A": "11/13",
+          "B": "11/14",
+          "C": "11/23",
+          "D": "11/24"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/24191808_Matematik_6_-_KazanYm_Tarama_Testi_-1/q15.png",
+        "ipucu": "Grafikte verilen değerleri dikkatlice oku. En büyük, en küçük ya da karşılaştırma isteyen ifadeleri seçeneklerle eşleştir.",
+        "ipucu_ai": "Toplam yerli ve yabancı turist sayılarını bul, oranını hesapla."
+      }
+    ]
+  },
+  {
+    "testId": "Matematik_7_-Kazanım_Tarama_Testi_-1",
+    "testAdi": "Matematik_7_-Kazanım_Tarama_Testi_-1",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "–29’dan büyük 30’dan küçük tam sayıların toplamı kaçtır?",
+        "secenekler": {
+          "A": "0",
+          "B": "1",
+          "C": "29",
+          "D": "30"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q1.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Negatif ve pozitif tam sayıların simetrik olduğunu hatırla!"
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "![img-0.jpeg](data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img0.jpg)\n\nVerilen sayı doğrusu üzerinde modellenen işlem aşağıdakiğinden hangisidir?",
+        "secenekler": {
+          "A": "(+3) + (-5)",
+          "B": "(-3) + (-5)",
+          "C": "(+3) + (+5)",
+          "D": "(+3) - (-5)"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q2.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Sayı doğrusunda sola doğru hareket etmek eksi yönü, sağa doğru hareket etmek artı yönü temsil eder."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "Aşağıdaki eşitliklerden hangisi yanlıştır?",
+        "secenekler": {
+          "A": "(+6) · (-1) = (-6)",
+          "B": "(-17) : (-1) = (+17)",
+          "C": "(-2) · (+3) = (+6)",
+          "D": "(+10) : (-2) = (-5)"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q3.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Çarpma ve bölme işlemlerinde işaretlerin birbirine bölünmesi sonucu oluşan işaretin kuralını hatırla!"
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Aşağıdaki karelerin içine birer tam sayı, çemberlerin içine ise (+) ya da (·) sembollerinden biri yazılacaktır.\n\n![img-1.jpeg](data/images/Matematik_7_-Kazanım_Tarama_Testi_-1/sayfa0_img1.jpg)\n\nÇemberlerin içindeki işlem o çemberin üstündeki iki karenin içindeki sayılara uygulanıp elde edilen sonuç o çemberin altındaki kareye yazılarak yukarıdaki şema oluşturuluyor.\n\nVerilen şemada A ve C yerine yazılması gereken tam sayılar ve B yerine yazılması gereken işlem hangi seçenekte doğru olarak verilmiştir?\n\n| A | B | C |\n| --- | --- | --- |\n|",
+        "secenekler": {
+          "A": "2 | + | -4 |\n|",
+          "B": "-4 | + | 32 |\n|",
+          "C": "2 | · | -4 |\n|",
+          "D": "-4 | · | -32 |"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q4.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Çemberdeki işlem soldaki sayıya uygulanır ve sonuç aşağıdaki kareye yazılır!"
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "(-20) : (+4) + (-1) · (-6) işleminin sonucu kaçtır?",
+        "secenekler": {
+          "A": "11",
+          "B": "1",
+          "C": "-1",
+          "D": "-11"
+        },
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "İşlem önceliğini hatırla: önce bölme ve çarpma, sonra toplama!"
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "(+5) + △ = 0\n\n[(+2) + (-7)] + ▢ = (+2) + [(-7) + (+6)]\n\nYukarıdaki eşitliklere göre, △ - ▢ kaçtır?",
+        "secenekler": {
+          "A": "-11",
+          "B": "-5",
+          "C": "1",
+          "D": "6\n\nKAZANIM TANITASI\n\n1"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q6.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Toplama işleminin etkisiz elemanını hatırla!"
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "(-6) ▢ (-2) ▢ (-8) ▢ (-4) = 16\n\nYukarıdaki eşitliğin doğru olması için □'lerin yerine (+), (-), (·), (:) sembollerinden hangileri sırasıyla yazılmalıdır?",
+        "secenekler": {
+          "A": "·, +, −",
+          "B": "·, −, +",
+          "C": ":, −, •",
+          "D": ":, +, −"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q7.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "İşlemlerin hangi sırada yapılacağını unutma!"
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "|(-11) - (-7)| - |10 : (-2)|\n\nişleminin sonucu kaçtır?",
+        "secenekler": {
+          "A": "13",
+          "B": "9",
+          "C": "1",
+          "D": "−1"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q8.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Mutlak değer içindeki işlemleri ayrı ayrı hesaplayıp sonucu bulabilirsin."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "| \\Delta | = 5 ve |▢| = 3\n\nolduğuna göre, \\Delta - ▢ 'nin en küçük değeri kaçtır?",
+        "secenekler": {
+          "A": "−8",
+          "B": "−3",
+          "C": "−2",
+          "D": "2"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q9.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Mutlak değerin ne anlama geldiğini unutma!"
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "(-1)⁶ + (-2)² = A\n\n(-3)¹ + (-1)⁷ = B\n\nYukarıdaki eşitliklere göre, A·B kaçtır?",
+        "secenekler": {
+          "A": "100",
+          "B": "70",
+          "C": "−20",
+          "D": "−50"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q10.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Üslü sayıların negatif tabanının kuvvetine dikkat et!"
+      },
+      {
+        "soruNo": 11,
+        "soruMetni": "(-2)³ < M < (-1)⁴ olduğuna göre, M yerine yazılabilecek kaç tane tam sayı vardır?",
+        "secenekler": {
+          "A": "6",
+          "B": "8",
+          "C": "9",
+          "D": "10"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q11.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Sayı doğrusunda hangi yöne gittiğini unutma!"
+      },
+      {
+        "soruNo": 12,
+        "soruMetni": "[-2⁰ - (-3)²] : [(-2²) - (-5)⁰]\n\nişleminin sonucu kaçtır?",
+        "secenekler": {
+          "A": "−4",
+          "B": "−2",
+          "C": "2",
+          "D": "4"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-1/q12.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Üslü sayıların negatif tabanının kuvvetine dikkat et!"
+      }
+    ]
+  },
+  {
+    "testId": "Matematik_7_-Kazanım_Tarama_Testi_-2",
+    "testAdi": "Matematik_7_-Kazanım_Tarama_Testi_-2",
+    "sorular": [
+      {
+        "soruNo": 1,
+        "soruMetni": "95 lira borcu olan Sinan 27 lira daha borç alıyor. Daha sonra borcunun 55 lirasını ödüyor.\n\nSon olarak borcunun 32 lirasını daha ödediğine göre, Sinan'ın kalan borcu kaç liradır?",
+        "secenekler": {
+          "A": "8",
+          "B": "15",
+          "C": "35",
+          "D": "67"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q1.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Toplam borcu hesapladıktan sonra ödediklerini çıkar."
+      },
+      {
+        "soruNo": 2,
+        "soruMetni": "Bir şehirde sabah sıcaklık –3°C olarak ölçülmüş, öğlen sıcaklığın önceki ölçüme göre 9°C arttığı, akşam ise bir önceki ölçüme göre 10°C azaldığı görülmüştür.\n\nBuna göre, akşam ölçülen hava sıcaklığı kaç derecedir?",
+        "secenekler": {
+          "A": "1",
+          "B": "–1",
+          "C": "–3",
+          "D": "–4"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q2.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Sıcaklık değişimlerini adım adım takip et."
+      },
+      {
+        "soruNo": 3,
+        "soruMetni": "Deniz seviyesine göre 11 metre derinlikte bulunan bir dalgıç önce 5 metre yukarıya çıkıp sonra 2 metre aşağıya dalıyor.\n\nBuna göre, dalgıcın son durumda deniz seviyesine göre konumunu veren işlem aşağıdaki kilerden hangisidir?",
+        "secenekler": {
+          "A": "(–11) + (+5) + (–2)",
+          "B": "(–11) + (–5) + (+2)",
+          "C": "(+11) + (–5) + (+2)",
+          "D": "(–11) – (+5) – (–2)"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q3.png",
+        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu_ai": "Dalgıcın hareketlerini sayı doğrusunda canlandır."
+      },
+      {
+        "soruNo": 4,
+        "soruMetni": "Bir odadaki termometrede sıcaklık 28 dereceyi göstermekte iken odanın sıcaklığını dakikada 4 derece düşürebilen bir klima açılıyor.\n\nKlima açıldıktan 8 dakika sonra odanın sıcaklığı kaç derece olur?",
+        "secenekler": {
+          "A": "–8",
+          "B": "–4",
+          "C": "0",
+          "D": "4"
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q4.png",
+        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu_ai": "Başlangıç sıcaklığından toplam düşüşü çıkar."
+      },
+      {
+        "soruNo": 5,
+        "soruMetni": "20 soruluk bir testte öğrenciler doğru cevapladıkları her bir soru için +5 puan, yanlış cevapladıkları her bir soru için ise –3 puan almaktadır.\n\nBu testin tamamını cevaplayan bir öğrenci 14 soruyu doğru cevapladığına göre, kaç puan almıştır?",
+        "secenekler": {
+          "A": "88",
+          "B": "64",
+          "C": "52",
+          "D": "28"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q5.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Doğru cevaplar için puanı hesapla, yanlış cevaplar için puanı çıkar."
+      },
+      {
+        "soruNo": 6,
+        "soruMetni": "| 10 | 6 | 2 |\n| --- | --- | --- |\n| 9 | 5 | 1 |\n| 8 | 4 | 0 |\n| 7 | 3 | -1 |\n\nYukarıda bir apartmanın asansör kabinindeki tuşlar verilmiştir. Bu apartmanda Eylül, Zeynep'ten 5 kat aşağıda, Hayat ise Zeynep'ten 6 kat yukarıda oturmaktadır.\n\nEylül, Zeynep ve Hayat asansöre birlikte binmiş ve oturdukları katlara gitmek için tuşlara basmışlardır.\n\nBuna göre, Eylül, Hayat ve Zeynep'in bastıkları tuşlar hangi seçenekte doğru olarak verilmiştir?\n\n| | Eylül | Hayat | Zeynep |\n| --- | --- | --- | --- |\n|",
+        "secenekler": {
+          "A": "| –1 | 10 | 4 |\n|",
+          "B": "| –1 | 9 | 5 |\n|",
+          "C": "| 1 | 10 | 4 |\n|",
+          "D": "| 9 | 10 | 4 |\n\nKAZANIM TANİSİ\n\n2"
+        },
+        "dogruCevap": "A",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q6.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Kat farklarını asansördeki tuşlara yerleştir."
+      },
+      {
+        "soruNo": 7,
+        "soruMetni": "Aşağıda bir iş yerindeki doğal gaz kombisinin 3 farklı kademesi ve bu kademelerin bir saatte harcadıkları gaz miktarı verilmiştir.\n\n| Kademe | Bir Saatte Harcanan Doğal Gaz Miktarı (m³) |\n| --- | --- |\n| 1. kademe (düşük) | 2 |\n| 2. kademe (orta) | 3 |\n| 3. kademe (yüksek) | 5 |\n\nAynı gün içerisinde kombi saat 09.00'da 3. kademede çalıştırılmaya başlanmış, saat 12.00'de 1. kademeye düşürülmüş ve saat 18.00'de kapatılmıştır.\n\nİşyerindeki doğal gaz sayacı saat 09.00'da 50 m³ gaz olduğunu gösterdiğine göre, bu sayaç, saat 18.00'de kaç metreküp gaz olduğunu gösterir?",
+        "secenekler": {
+          "A": "21",
+          "B": "23",
+          "C": "27",
+          "D": "29"
+        },
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": null,
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Her kademe için harcanan gaz miktarını hesapla, sonucu topla."
+      },
+      {
+        "soruNo": 8,
+        "soruMetni": "Kaan ve Doruk hava sıcaklığını tahmin etmeye çalışıyorlar. Termometreye baktıklarında gerçek sıcaklığın Kaan'ın tahmininden 3°C yüksek, Doruk'un tahmininden ise 1°C düşük olduğunu görüyorlar.\n\nKaan'ın tahmini -8^{\\circ}C olduğuna göre, Doruk'un tahmini kaç °C'dir?",
+        "secenekler": {
+          "A": "-12",
+          "B": "-10",
+          "C": "-6",
+          "D": "-4"
+        },
+        "dogruCevap": "D",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q8.png",
+        "ipucu": "Önce bütün ölçüleri aynı birime çevir. Sonra eşitlikleri ya da karşılaştırmaları kontrol et.",
+        "ipucu_ai": "Tahminler arasındaki farkı hesapla."
+      },
+      {
+        "soruNo": 9,
+        "soruMetni": "Aşağıda 3 farklı ilde aynı gün içinde ölçülen en düşük ve en yüksek hava sıcaklık değerleri verilmiştir.\n\n| | En Düşük Sıcaklık (°C) | En Yüksek Sıcaklık (°C) |\n| --- | --- | --- |\n| Trabzon | -5 | +2 |\n| Ağrı | -17 | -1 |\n| Ankara | -13 | 2 |\n\nVerilen bilgilere göre, aşağıdaki kilerden hangisi yanlıştır?",
+        "secenekler": {
+          "A": "Ağrı'da ölçülen en yüksek sıcaklık Trabzon'da ölçülen en düşük sıcaklıktan 4°C fazladır.",
+          "B": "Ankara'da ölçülen en düşük sıcaklık Trabzon'da ölçülen en yüksek sıcaklıktan 11°C azdır.",
+          "C": "Ağrı'da ölçülen en düşük ve en yüksek sıcaklık değerleri arasında 16°C lik fark vardır.",
+          "D": "Trabzon'da ölçülen en düşük ve en yüksek sıcaklık değerleri arasında 7°C lik fark vardır."
+        },
+        "dogruCevap": "B",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q9.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Sorudaki sıcaklık değerlerini karşılaştır."
+      },
+      {
+        "soruNo": 10,
+        "soruMetni": "Bir matematik öğretmeni öğrencilerden günlük 50'şer soru çözmelerini ve her gün için yaptıkları çizelgenin üzerine kaç soru fazla ya da eksik çözdüklerini yazmalarını istiyor. Örneğin 55 soru çözülen gün çizelgeye +5, 40 soru çözülen gün -10 yazmalarını istiyor.\n\nAda'nın pazar günü hariç bir hafta içinde çözdüğü soru sayılarını gösteren çizelge aşağıda verilmiştir.\n\n| Pazartesi | Salı | Çarşamba | Perşembe | Cuma | Cumartesi | Pazar |\n| --- | --- | --- | --- | --- | --- | --- |\n| -7 | +8 | -4 | -5 | +11 | -5 | |\n\nAda çizelgede verilen hafta için toplamda öğretmeninin istediği sayıda soru çözdüğüne göre, pazar günü kaç soru çözmüştür?",
+        "secenekler": {
+          "A": "47",
+          "B": "48",
+          "C": "52",
+          "D": "53"
+        },
+        "dogruCevap": "C",
+        "durum": "GÖRSEL_İÇERİKLİ",
+        "bozukSebepleri": [],
+        "kaynak": "mistral_ocr",
+        "soruGorselPath": "data/question_crops/Matematik_7_-Kazanım_Tarama_Testi_-2/q10.png",
+        "ipucu": "Önce soru kökünde ne istendiğini bul. Sonra seçenekleri tek tek eleyerek doğru cevaba yaklaş.",
+        "ipucu_ai": "Toplamda 0'a ulaşması gerektiğini unutma."
       }
     ]
   }
