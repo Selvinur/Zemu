@@ -188,7 +188,7 @@
     "sorular": [
       {
         "soruNo": 1,
-        "soruMetni": "(18,19 - 12,06) + 3,8 işleminin sonucu aşağıdakilerden hangisidir?",
+        "soruMetni": "(18,19 − 12,06) + 3,8 işleminin sonucu aşağıdakilerden hangisidir?",
         "secenekler": {
           "A": "6,53",
           "B": "9,83",
@@ -197,7 +197,7 @@
         },
         "dogruCevap": "C",
         "durum": "TEMİZ",
-        "soruGorselPath": null,
+        "soruGorselPath": "data/question_crops/Matematik5-Test-1/q1.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "İşlem önceliğine dikkat et. Önce parantez varsa onu, sonra çarpma-bölme ve toplama-çıkarma işlemlerini yap.",
@@ -205,54 +205,50 @@
       },
       {
         "soruNo": 2,
-        "soruMetni": "Yukarıdaki şekilde bir aracın benzin deposunda bulunan benzin miktarı gösterilmektedir. Buna göre bu deponun % kaçı doludur?",
+        "soruMetni": "Yukarıdaki şekilde bir aracın benzin deposunda bulunan benzin miktarı gösterilmektedir.\n\nBuna göre bu deponun % kaçı doludur?",
         "secenekler": {
           "A": "%25",
           "B": "%50",
           "C": "%75",
-          "D": "%100 A) 1 B) 2 C) 3 D) 4"
+          "D": "%100"
         },
-        "dogruCevap": "B",
-        "durum": "BOZUK",
+        "dogruCevap": "C",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q2.png",
-        "bozukSebepleri": [
-          "D şıkkında A) kalıntısı var"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
+        "ipucu": "Benzin göstergesindeki bölmeleri sayarak dolu kısmın oranını belirle.",
         "ipucu_ai": "Depodaki benzin miktarını toplam kapasiteye oranlamalısın."
       },
       {
         "soruNo": 3,
-        "soruMetni": "",
+        "soruMetni": "I. 0,8 = %80\nII. 0,09 = %90\nIII. 0,25 = %25\nIV. 0,06 = %60\n\nYukarıdaki eşitliklerden kaç tanesi doğrudur?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": ""
+          "A": "1",
+          "B": "2",
+          "C": "3",
+          "D": "4"
         },
-        "dogruCevap": "D",
-        "durum": "BOZUK",
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q3.png",
-        "bozukSebepleri": [
-          "eski parser tarafından çıkarılamadı"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
-        "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
+        "ipucu": "Her bir eşitliği tek tek incele. Ondalık sayıları yüzdeye çevirirken 100 ile çarpmayı dene.",
         "ipucu_ai": "Ondalık kesirleri yüzde olarak yazabilmek için virgülden sonraki basamak sayısını ikiye tamamlamalısın."
       },
       {
         "soruNo": 4,
-        "soruMetni": "Bir koşucu 6 km.’lik yolun %30’unu koşuyor. Bu koşucunun geriye koşacağı kaç metre yolu kalmıştır? (1 km = 1000 m)",
+        "soruMetni": "Bir koşucu 6 km'lik yolun %30'unu koşuyor. Bu koşucunun geriye koşacağı kaç metre yolu kalmıştır? (1 km = 1000 m)",
         "secenekler": {
           "A": "1800",
           "B": "2400",
           "C": "3600",
           "D": "4200"
         },
-        "dogruCevap": "A",
+        "dogruCevap": "D",
         "durum": "TEMİZ",
-        "soruGorselPath": null,
+        "soruGorselPath": "data/question_crops/Matematik5-Test-1/q4.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Yüzdeyi kesir ya da ondalık olarak düşün. Önce verilen kısmı bul, sonra sorunun istediği değeri hesapla.",
@@ -260,70 +256,58 @@
       },
       {
         "soruNo": 5,
-        "soruMetni": "“KL doğru parçası ile MN doğru parçası paraleldir.” Yukarıdaki ifadenin sembol ile gösterimi aşağıdakiler - den hangisidir?",
+        "soruMetni": "“KL” doğru parçası ile “MN” doğru parçası paraleldir.\n\nYukarıdaki ifadenin sembol ile gösterimi aşağıdakilerden hangisidir?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": "KL MN' KL MN'55 ?? KL MN= KL MN=55 ?? Birim kareli kağıtta Ali ile Veli’nin konumları gösterilmektedir. Buna göre Ali’nin Veli’ye göre konumu aşağıdakilerden hangisidir? A) 2 birim batısının 3 birim güneyinde B) 2 birim doğusunun 3 birim kuzeyinde C) 3 birim doğusunun 2 birim güneyinde D) 3 birim batısının 2 birim kuzeyinde"
+          "A": "KL // MN",
+          "B": "[KL] // [MN]",
+          "C": "KL ⊥ MN",
+          "D": "[KL] ⊥ [MN]"
         },
-        "dogruCevap": "C",
-        "durum": "BOZUK",
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q5.png",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş",
-          "D şıkkı çok uzun (325 karakter)",
-          "D şıkkında A) kalıntısı var"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Doğruların yönlerini karşılaştır. Paralel doğrular kesişmez ve aynı doğrultuda ilerler.",
         "ipucu_ai": "Doğru parçasını sembolle gösterirken harflerin köşeli parantez içinde olmasına dikkat etmelisin."
       },
       {
         "soruNo": 6,
-        "soruMetni": "",
+        "soruMetni": "Birim kareli kağıtta Ali ile Veli'nin konumları gösterilmektedir.\n\nBuna göre Ali'nin Veli'ye göre konumu aşağıdakilerden hangisidir?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": ""
+          "A": "2 birim batısının 3 birim güneyinde",
+          "B": "2 birim doğusunun 3 birim kuzeyinde",
+          "C": "3 birim doğusunun 2 birim güneyinde",
+          "D": "3 birim batısının 2 birim kuzeyinde"
         },
-        "dogruCevap": "D",
-        "durum": "BOZUK",
+        "dogruCevap": "B",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q6.png",
-        "bozukSebepleri": [
-          "eski parser tarafından çıkarılamadı"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
         "ipucu_ai": "Ali'nin konumunu bulmak için Veli'nin bulunduğu noktadan başlayarak birim kareleri saymalısın."
       },
       {
         "soruNo": 7,
-        "soruMetni": "A B C D E F G H Yukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?",
+        "soruMetni": "Yukarıda kareli düzlemde verilen doğru parçalarından hangi ikisinin uzunluğu birbirine eşittir?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": "AB ile CD5 5? ? AB ile EF55 ?? AB ile HG5 5? ? EF ile HG5 5? ?"
+          "A": "[AB] ile [CD]",
+          "B": "[AB] ile [EF]",
+          "C": "[AB] ile [HG]",
+          "D": "[EF] ile [HG]"
         },
-        "dogruCevap": "B",
-        "durum": "BOZUK",
+        "dogruCevap": "A",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q7.png",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
         "ipucu_ai": "Doğru parçalarının uzunluklarını karşılaştırmak için kareli zemindeki birim kareleri saymalısın."
       },
       {
         "soruNo": 8,
-        "soruMetni": "Şekilde verilenlere göre “?” yerine gelmesi gereken açı kaç derecedir? 50c ? k l kl=",
+        "soruMetni": "Şekilde verilenlere göre “?” yerine gelmesi gereken açı kaç derecedir?",
         "secenekler": {
           "A": "40",
           "B": "50",
@@ -331,7 +315,7 @@
           "D": "100"
         },
         "dogruCevap": "A",
-        "durum": "GÖRSEL_İÇERİKLİ",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q8.png",
         "bozukSebepleri": [],
         "kaynak": "old_parser",
@@ -340,21 +324,17 @@
       },
       {
         "soruNo": 9,
-        "soruMetni": "Yandaki açıyı aşağıda verilen ifadelerden hangisi ile adlandıramayız? K M L",
+        "soruMetni": "Yandaki açıyı aşağıda verilen ifadelerden hangisi ile adlandıramayız?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": "KLM% MKL%LUMLK%"
+          "A": "KL̂M",
+          "B": "ML̂K",
+          "C": "L̂",
+          "D": "MK̂L"
         },
-        "dogruCevap": "C",
-        "durum": "BOZUK",
+        "dogruCevap": "D",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q9.png",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Şekilde verilen açıları incele. Eş, bütünler ya da paralel doğrulardaki açı ilişkilerini düşün.",
         "ipucu_ai": "Açıları adlandırırken harflerin sırası önemli, ortadaki harf açının köşesini temsil eder."
@@ -363,19 +343,15 @@
         "soruNo": 10,
         "soruMetni": "Kareli kağıtta yer alan doğrulara göre aşağıdakilerden hangisi doğrudur?",
         "secenekler": {
-          "A": "",
-          "B": "",
-          "C": "",
-          "D": "a b c d da' ab' bc' ac'"
+          "A": "d // a",
+          "B": "a // b",
+          "C": "b // c",
+          "D": "a // c"
         },
         "dogruCevap": "B",
-        "durum": "BOZUK",
+        "durum": "TEMİZ",
         "soruGorselPath": "data/question_crops/Matematik5-Test-1/q10.png",
-        "bozukSebepleri": [
-          "A şıkkı boş",
-          "B şıkkı boş",
-          "C şıkkı boş"
-        ],
+        "bozukSebepleri": [],
         "kaynak": "old_parser",
         "ipucu": "Soruyu görselden oku. Şekil, tablo veya verilen bilgileri dikkatlice inceleyip aşağıdaki A-B-C-D seçeneklerinden birini seç.",
         "ipucu_ai": "Doğruların birbirine göre durumunu anlamak için kesişim noktalarına bakmalısın."
