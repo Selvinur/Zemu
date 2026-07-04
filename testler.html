@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zemu — Test Seçimi</title>
+  <meta name="description" content="Zemu - Yapay Zeka Destekli Öğrenme Asistanı" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg-primary: #EEF6FB;
+      --bg-card: #FFFFFF;
+      --text-primary: #2E3A4A;
+      --text-secondary: #7A8797;
+      --accent: #B9DCFF;
+      --accent-glow: rgba(185, 220, 255, 0.35);
+      --border: #E2E8F0;
+      --radius: 20px;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    /* ── Header ─────────────────────── */
+    .header {
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    .logo {
+      font-size: 30px;
+      font-weight: 900;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #FF8FB3, #FFB6D0);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 4px;
+    }
+
+    .header-sub {
+      color: #4a5568;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .title-area {
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .title-area h2 {
+      font-size: 24px;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .title-area p {
+      font-size: 14px;
+      color: var(--text-secondary);
+    }
+
+    .test-actions {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 24px;
+      width: 100%;
+    }
+    
+    .btn-geri {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      color: var(--text-secondary);
+      padding: 10px 20px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    }
+    
+    .btn-geri:hover {
+      background: #F8FBFF;
+      color: var(--text-primary);
+      border-color: #FFB6D0;
+    }
+
+    /* ── Test Grid ────────────────── */
+    .test-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 20px;
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .test-kart {
+      background: var(--bg-card);
+      border: 1.5px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.02);
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .test-kart::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 4px;
+      height: 100%;
+      background: var(--accent);
+      opacity: 0;
+      transition: opacity 0.2s ease;
+    }
+
+    .test-kart:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(122, 184, 245, 0.1);
+      border-color: var(--accent);
+    }
+
+    .test-kart:hover::before {
+      opacity: 1;
+    }
+
+    .test-number {
+      font-size: 32px;
+      font-weight: 900;
+      color: rgba(185, 220, 255, 0.4);
+      line-height: 1;
+      margin-bottom: 12px;
+    }
+
+    .test-title {
+      font-size: 16px;
+      font-weight: 700;
+      color: var(--text-primary);
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+
+    .test-action-text {
+      font-size: 12px;
+      font-weight: 700;
+      color: var(--accent);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-top: auto;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.2s ease;
+    }
+
+    .test-kart:hover .test-action-text {
+      gap: 8px;
+    }
+
+    /* ── Loading Spinner ───────────── */
+    .yukleniyor {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      color: var(--text-secondary);
+      font-size: 14px;
+      font-weight: 500;
+    }
+
+    .spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid rgba(185, 220, 255, 0.2);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+      margin-bottom: 16px;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    /* ── Zemu Mascot ────────────────── */
+    .zemu-mascot-area {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      margin-top: 20px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 16px 24px;
+      border-radius: 24px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.02);
+      max-width: 480px;
+    }
+
+    .zemu-bubble {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+
+    .zemu-character {
+      width: 60px;
+      height: auto;
+      animation: gentle-bounce 3s ease-in-out infinite;
+    }
+
+    @keyframes gentle-bounce {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-6px); }
+    }
+  </style>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">Zemu</div>
+    <div class="header-sub">Yapay Zeka Destekli Öğrenme Asistanı</div>
+  </header>
+
+  <div class="container">
+    <div class="test-actions">
+      <button class="btn-geri" id="btnGeri">🔙 Sınıf Seçimine Dön</button>
+    </div>
+
+    <div class="title-area">
+      <h2 id="pageTitle">Kazanım Testleri</h2>
+      <p id="pageSubtitle">Çözmek istediğin testi seçip Zemu ile çalışmaya başla!</p>
+    </div>
+
+    <div class="yukleniyor" id="loadingArea">
+      <div class="spinner"></div>
+      Testler listeleniyor...
+    </div>
+
+    <div class="test-grid" id="testGrid" style="display: none;"></div>
+
+    <div class="zemu-mascot-area">
+      <div class="zemu-bubble">Matematik bilgilerini test etmeye ne dersin? Hangi testi çözeceğini seç, Zemu seninle beraber düşünsün! 🐘</div>
+      <img src="./assets/zemu.png" alt="Zemu" class="zemu-character" />
+    </div>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const aktifDers = urlParams.get("ders") || "matematik";
+    const secilenSinif = parseInt(urlParams.get("sinif"), 10) || 5;
+
+    const btnGeri = document.getElementById("btnGeri");
+    const pageTitle = document.getElementById("pageTitle");
+    const loadingArea = document.getElementById("loadingArea");
+    const testGrid = document.getElementById("testGrid");
+
+    // Başlık güncelle
+    const dersIsimler = {
+      matematik: "Matematik",
+      turkce: "Türkçe",
+      fen: "Fen Bilimleri",
+      sosyal: "Sosyal Bilgiler"
+    };
+    const dersIsmi = dersIsimler[aktifDers] || "Ders";
+    pageTitle.textContent = `${dersIsmi} — ${secilenSinif}. Sınıf`;
+
+    // Geri butonu yönlendirmesi
+    btnGeri.addEventListener("click", () => {
+      window.location.href = `sinif.html?ders=${aktifDers}`;
+    });
+
+    // Test sınıfı belirleme yardımcı fonksiyonu
+    function getTestSinif(test) {
+      const rawName = test.testAdi || test.testId || "";
+      const match = rawName.match(/Matematik_?(\d+)/i);
+      if (match) {
+        return parseInt(match[1], 10);
+      }
+      return 5;
+    }
+
+    // Test adı düzenleyici
+    function formatTestAdi(rawName) {
+      if (!rawName) return "";
+      let name = rawName.replace(/^\d+_+/, '');
+      name = name.replace(/[_-]+/g, ' ');
+      name = name.replace(/KazanYm/gi, 'Kazanım');
+      name = name.replace(/Matematik \d+ Kazanım Tarama Testi/gi, 'Kazanım Testi');
+      name = name.replace(/Matematik\s*\d*\s*Test\s*(\d+)/gi, 'Kazanım Testi $1');
+      return name.replace(/\s+/g, ' ').trim();
+    }
+
+    // Test sıralama yardımcısı
+    function getTestSira(test) {
+      const rawName = test.testAdi || test.testId || "";
+      const cleaned = formatTestAdi(rawName);
+      const match = cleaned.match(/\d+/);
+      return match ? parseInt(match[0], 10) : 999;
+    }
+
+    // Veriyi yükle ve listele
+    async function testleriYukle() {
+      try {
+        const response = await fetch("./data/tests_with_hints.json");
+        if (!response.ok) throw new Error("JSON yüklenemedi");
+        const testler = await response.json();
+
+        // Seçilen sınıfa ait olan testleri filtrele ve sırala
+        const sinifTestleri = testler
+          .filter(t => getTestSinif(t) === secilenSinif)
+          .sort((a, b) => getTestSira(a) - getTestSira(b));
+
+        loadingArea.style.display = "none";
+        testGrid.style.display = "grid";
+
+        if (sinifTestleri.length === 0) {
+          testGrid.innerHTML = `<div style="grid-column: 1/-1; text-align: center; color: var(--text-secondary); padding: 40px;">Bu sınıf için henüz test yüklenmemiş!</div>`;
+          return;
+        }
+
+        sinifTestleri.forEach((test, index) => {
+          const kart = document.createElement("div");
+          kart.className = "test-kart";
+          
+          // Test numarası (örnek: 01, 02)
+          const siraNo = index + 1;
+          const siraStr = siraNo < 10 ? `0${siraNo}` : siraNo;
+          
+          kart.innerHTML = `
+            <div class="test-number">${siraStr}</div>
+            <div class="test-title">${formatTestAdi(test.testAdi)}</div>
+            <div class="test-action-text">Çözmeye Başla →</div>
+          `;
+
+          kart.addEventListener("click", () => {
+            window.location.href = `coz.html?ders=${aktifDers}&sinif=${secilenSinif}&test=${test.testId}`;
+          });
+
+          testGrid.appendChild(kart);
+        });
+
+      } catch (error) {
+        loadingArea.innerHTML = `<div style="color: var(--red);">⚠️ Veriler yüklenemedi. Lütfen daha sonra deneyin.</div>`;
+        console.error(error);
+      }
+    }
+
+    testleriYukle();
+  </script>
+</body>
+</html>
