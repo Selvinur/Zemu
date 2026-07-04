@@ -216,35 +216,43 @@
     }
 
     /* ── Zemu Mascot ────────────────── */
-    .zemu-mascot-area {
+    .zemu-widget.welcome-mode {
+      position: relative;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      width: 240px;
       display: flex;
+      flex-direction: column;
       align-items: center;
-      gap: 16px;
-      margin-top: 20px;
-      background: var(--bg-card);
-      border: 1px solid var(--border);
-      padding: 16px 24px;
-      border-radius: 24px;
-      box-shadow: 0 8px 24px rgba(0,0,0,0.02);
-      max-width: 480px;
-    }
-
-    .zemu-bubble {
-      font-size: 13px;
-      font-weight: 600;
-      color: var(--text-primary);
-      line-height: 1.4;
+      gap: 10px;
     }
 
     .zemu-character {
-      width: 60px;
+      width: 180px;
       height: auto;
-      animation: gentle-bounce 3s ease-in-out infinite;
+      user-select: none;
+      filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
+      animation: zemuFloat 3.2s ease-in-out infinite;
     }
 
-    @keyframes gentle-bounce {
+    @keyframes zemuFloat {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-6px); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .zemu-mini-bubble {
+      background: white;
+      color: #4A2434;
+      padding: 10px 16px;
+      border-radius: 14px 14px 4px 14px;
+      font-size: 12px;
+      font-weight: 600;
+      text-align: center;
+      max-width: 260px;
+      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+      margin-bottom: 2px;
+      line-height: 1.4;
     }
   </style>
 </head>
@@ -271,9 +279,9 @@
 
     <div class="test-grid" id="testGrid" style="display: none;"></div>
 
-    <div class="zemu-mascot-area">
-      <div class="zemu-bubble">Matematik bilgilerini test etmeye ne dersin? Hangi testi çözeceğini seç, Zemu seninle beraber düşünsün! 🐘</div>
-      <img src="./assets/zemu.png" alt="Zemu" class="zemu-character" />
+    <div class="zemu-widget welcome-mode">
+      <div class="zemu-mini-bubble">Matematik bilgilerini test etmeye ne dersin? Hangi testi çözeceğini seç, Zemu seninle beraber düşünsün! 🐘</div>
+      <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
     </div>
   </div>
 
