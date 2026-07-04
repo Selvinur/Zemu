@@ -880,11 +880,11 @@
   </div> <!-- anaUygulama bitiş -->
 
   <div class="zemu-widget">
-    <div class="zemu-mini-bubble">İpucu istersen beraber düşünelim! 💡</div>
+    <div class="zemu-mini-bubble">İpucu istersen beraber düşünelim!</div>
     <div id="ipucuKutusu" class="zemu-bubble" style="display:none;"></div>
 
     <div class="zemu-actions">
-      <button id="ipucuBtn" class="zemu-hint-btn" type="button">💡 İpucu Al</button>
+      <button id="ipucuBtn" class="zemu-hint-btn" type="button">İpucu Al</button>
       <button id="zemuBtn" class="zemu-ask-btn" type="button" style="display:none;">Zemu'ya Sor ✨</button>
     </div>
 
@@ -1236,7 +1236,7 @@
       if (!soru) return;
 
       const ipucuMetni = soru.ipucu || "Bu soru için henüz ipucu yok.";
-      ipucuKutusu.innerHTML = `<strong>💡 Zemu'dan ipucu:</strong><br>${markdownToHtml(ipucuMetni)}`;
+      ipucuKutusu.innerHTML = `<strong>Zemu'dan ipucu:</strong><br>${markdownToHtml(ipucuMetni)}`;
       ipucuKutusu.style.display = "block";
 
       if (soru.ipucu_ai) {
@@ -1348,7 +1348,7 @@
     zemuWidget.style.bottom = '';
     
     document.querySelector('.zemu-actions').style.display = 'flex';
-    document.querySelector('.zemu-mini-bubble').innerHTML = 'İpucu istersen beraber düşünelim! 💡';
+    document.querySelector('.zemu-mini-bubble').innerHTML = 'İpucu istersen beraber düşünelim!';
 
     derslereDonBtn.addEventListener("click", () => {
       window.location.href = `testler.html?ders=${aktifDers}&sinif=${secilenSinif}`;

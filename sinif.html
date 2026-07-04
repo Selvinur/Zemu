@@ -204,6 +204,8 @@
       width: 180px;
       height: auto;
       user-select: none;
+      pointer-events: auto;
+      cursor: grab;
       filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
       animation: zemuFloat 3.2s ease-in-out infinite;
     }
@@ -241,38 +243,33 @@
 
     <div class="title-area">
       <h2 id="pageTitle">Sınıf Seçimi</h2>
-      <p id="pageSubtitle">Öğrenim düzeyini seç ve testlere hemen ulaş!</p>
     </div>
 
     <div class="sinif-grid">
       <div class="sinif-kart" data-sinif="5">
         <div class="sinif-kart-number">5</div>
         <div class="sinif-kart-title">5. Sınıf</div>
-        <div class="sinif-kart-sub">Ortaokul Başlangıç Seviyesi</div>
       </div>
 
       <div class="sinif-kart" data-sinif="6">
         <div class="sinif-kart-number">6</div>
         <div class="sinif-kart-title">6. Sınıf</div>
-        <div class="sinif-kart-sub">Ortaokul Temel Seviye</div>
       </div>
 
       <div class="sinif-kart" data-sinif="7">
         <div class="sinif-kart-number">7</div>
         <div class="sinif-kart-title">7. Sınıf</div>
-        <div class="sinif-kart-sub">Ortaokul Gelişmiş Seviye</div>
       </div>
 
       <div class="sinif-kart disabled" data-sinif="8">
         <div class="sinif-kart-number">8</div>
         <div class="sinif-kart-title">8. Sınıf</div>
-        <div class="sinif-kart-sub">LGS Hazırlık Seviyesi</div>
         <span class="yakinda-badge">Yakında Eklenecek</span>
       </div>
     </div>
 
     <div class="zemu-widget welcome-mode">
-      <div class="zemu-mini-bubble">Harika! Matematik dersini seçtik. Şimdi kaçıncı sınıfta olduğunu bana söyle, o sınıfa ait testleri getireyim! 🐘</div>
+      <div class="zemu-mini-bubble">Harika! Matematik dersini seçtik. Şimdi kaçıncı sınıfta olduğunu bana söyle, o sınıfa ait testleri getireyim!</div>
       <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
     </div>
   </div>
@@ -308,6 +305,75 @@
         }
         window.location.href = `testler.html?ders=${aktifDers}&sinif=${sinif}`;
       });
+    });
+
+    // ── Zemu Sürükleme (Drag & Drop) ─────────
+    const zemuWidget = document.querySelector('.zemu-widget');
+    const zemuChar = document.querySelector('.zemu-character');
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    function startDrag(clientX, clientY) {
+      isDragging = true;
+      zemuChar.style.cursor = 'grabbing';
+      
+      const rect = zemuWidget.getBoundingClientRect();
+      zemuWidget.style.position = 'fixed';
+      zemuWidget.style.left = rect.left + 'px';
+      zemuWidget.style.top = rect.top + 'px';
+      zemuWidget.style.right = 'auto';
+      zemuWidget.style.bottom = 'auto';
+
+      offsetX = clientX - rect.left;
+      offsetY = clientY - rect.top;
+    }
+
+    function doDrag(clientX, clientY) {
+      if (!isDragging) return;
+      zemuWidget.style.left = (clientX - offsetX) + 'px';
+      zemuWidget.style.top = (clientY - offsetY) + 'px';
+    }
+
+    function stopDrag() {
+      if (isDragging) {
+        isDragging = false;
+        zemuChar.style.cursor = 'grab';
+      }
+    }
+
+    // Mouse Olayları
+    zemuChar.addEventListener('mousedown', (e) => {
+      startDrag(e.clientX, e.clientY);
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      doDrag(e.clientX, e.clientY);
+    });
+
+    document.addEventListener('mouseup', () => {
+      stopDrag();
+    });
+
+    // Dokunmatik Ekran (Mobil) Olayları
+    zemuChar.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 0) {
+        e.preventDefault();
+        startDrag(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      if (e.touches.length > 0) {
+        e.preventDefault();
+        doDrag(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchend', () => {
+      stopDrag();
     });
   </script>
 </body>

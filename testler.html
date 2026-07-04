@@ -232,6 +232,8 @@
       width: 180px;
       height: auto;
       user-select: none;
+      pointer-events: auto;
+      cursor: grab;
       filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
       animation: zemuFloat 3.2s ease-in-out infinite;
     }
@@ -269,7 +271,6 @@
 
     <div class="title-area">
       <h2 id="pageTitle">Kazanım Testleri</h2>
-      <p id="pageSubtitle">Çözmek istediğin testi seçip Zemu ile çalışmaya başla!</p>
     </div>
 
     <div class="yukleniyor" id="loadingArea">
@@ -280,7 +281,7 @@
     <div class="test-grid" id="testGrid" style="display: none;"></div>
 
     <div class="zemu-widget welcome-mode">
-      <div class="zemu-mini-bubble">Matematik bilgilerini test etmeye ne dersin? Hangi testi çözeceğini seç, Zemu seninle beraber düşünsün! 🐘</div>
+      <div class="zemu-mini-bubble">Matematik bilgilerini test etmeye ne dersin? Hangi testi çözeceğini seç, Zemu seninle beraber düşünsün!</div>
       <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
     </div>
   </div>
@@ -387,6 +388,75 @@
     }
 
     testleriYukle();
+
+    // ── Zemu Sürükleme (Drag & Drop) ─────────
+    const zemuWidget = document.querySelector('.zemu-widget');
+    const zemuChar = document.querySelector('.zemu-character');
+    let isDragging = false;
+    let offsetX, offsetY;
+
+    function startDrag(clientX, clientY) {
+      isDragging = true;
+      zemuChar.style.cursor = 'grabbing';
+      
+      const rect = zemuWidget.getBoundingClientRect();
+      zemuWidget.style.position = 'fixed';
+      zemuWidget.style.left = rect.left + 'px';
+      zemuWidget.style.top = rect.top + 'px';
+      zemuWidget.style.right = 'auto';
+      zemuWidget.style.bottom = 'auto';
+
+      offsetX = clientX - rect.left;
+      offsetY = clientY - rect.top;
+    }
+
+    function doDrag(clientX, clientY) {
+      if (!isDragging) return;
+      zemuWidget.style.left = (clientX - offsetX) + 'px';
+      zemuWidget.style.top = (clientY - offsetY) + 'px';
+    }
+
+    function stopDrag() {
+      if (isDragging) {
+        isDragging = false;
+        zemuChar.style.cursor = 'grab';
+      }
+    }
+
+    // Mouse Olayları
+    zemuChar.addEventListener('mousedown', (e) => {
+      startDrag(e.clientX, e.clientY);
+    });
+
+    document.addEventListener('mousemove', (e) => {
+      if (!isDragging) return;
+      e.preventDefault();
+      doDrag(e.clientX, e.clientY);
+    });
+
+    document.addEventListener('mouseup', () => {
+      stopDrag();
+    });
+
+    // Dokunmatik Ekran (Mobil) Olayları
+    zemuChar.addEventListener('touchstart', (e) => {
+      if (e.touches.length > 0) {
+        e.preventDefault();
+        startDrag(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchmove', (e) => {
+      if (!isDragging) return;
+      if (e.touches.length > 0) {
+        e.preventDefault();
+        doDrag(e.touches[0].clientX, e.touches[0].clientY);
+      }
+    }, { passive: false });
+
+    document.addEventListener('touchend', () => {
+      stopDrag();
+    });
   </script>
 </body>
 </html>
