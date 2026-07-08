@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Zemu — Ders Seçimi</title>
+  <link rel="icon" href="assets/zemu.png" type="image/png">
   <meta name="description" content="Zemu - Yapay Zeka Destekli Öğrenme Asistanı" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -128,45 +129,66 @@
     }
 
     /* ── Zemu Mascot ────────────────── */
-    .zemu-widget.welcome-mode {
-      position: relative;
-      margin-top: 50px;
-      margin-left: auto;
-      margin-right: auto;
-      width: 240px;
+    .zemu-mascot-area {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 12px;
+      margin-top: 50px;
+    }
+
+    .zemu-bubble {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      padding: 16px 24px;
+      border-radius: 16px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--text-primary);
+      line-height: 1.5;
+      text-align: center;
+      position: relative;
+      max-width: 320px;
+    }
+
+    /* Konuşma balonu ucu */
+    .zemu-bubble::before {
+      content: '';
+      position: absolute;
+      bottom: -9px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 9px solid transparent;
+      border-right: 9px solid transparent;
+      border-top: 9px solid var(--border);
+    }
+    
+    .zemu-bubble::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 0;
+      height: 0;
+      border-left: 8px solid transparent;
+      border-right: 8px solid transparent;
+      border-top: 8px solid var(--bg-card);
     }
 
     .zemu-character {
-      width: 180px;
+      width: 130px;
       height: auto;
-      user-select: none;
-      pointer-events: auto;
-      cursor: grab;
-      filter: drop-shadow(0 18px 28px rgba(0, 0, 0, 0.35));
-      animation: zemuFloat 3.2s ease-in-out infinite;
+      animation: gentle-bounce 3s ease-in-out infinite;
+      filter: drop-shadow(0 15px 25px rgba(0,0,0,0.15));
     }
 
-    @keyframes zemuFloat {
+    @keyframes gentle-bounce {
       0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-10px); }
-    }
-
-    .zemu-mini-bubble {
-      background: white;
-      color: #4A2434;
-      padding: 10px 16px;
-      border-radius: 14px 14px 4px 14px;
-      font-size: 12px;
-      font-weight: 600;
-      text-align: center;
-      max-width: 260px;
-      box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
-      margin-bottom: 2px;
-      line-height: 1.4;
+      50% { transform: translateY(-6px); }
     }
   </style>
 </head>
@@ -178,9 +200,9 @@
 
   <div class="ders-secim-ekrani" id="dersSecimEkrani"></div>
 
-  <div class="zemu-widget welcome-mode">
-    <div class="zemu-mini-bubble">Merhaba, Ben Zemu!<br>Yapay Zeka Destekli Öğrenme Asistanınım. Bugün hangi dersi çalışmak istersin?</div>
-    <img src="./assets/zemu.png" alt="Zemu karakteri" class="zemu-character" />
+  <div class="zemu-mascot-area">
+    <div class="zemu-bubble">Merhaba, Ben Zemu! Yapay Zeka Destekli Öğrenme Asistanınım. Bugün hangi dersi çalışmak istersin? </div>
+    <img src="./assets/zemu.png" alt="Zemu" class="zemu-character" />
   </div>
 
   <script>
@@ -219,75 +241,6 @@
     }
 
     anaEkraniYukle();
-
-    // ── Zemu Sürükleme (Drag & Drop) ─────────
-    const zemuWidget = document.querySelector('.zemu-widget');
-    const zemuChar = document.querySelector('.zemu-character');
-    let isDragging = false;
-    let offsetX, offsetY;
-
-    function startDrag(clientX, clientY) {
-      isDragging = true;
-      zemuChar.style.cursor = 'grabbing';
-      
-      const rect = zemuWidget.getBoundingClientRect();
-      zemuWidget.style.position = 'fixed';
-      zemuWidget.style.left = rect.left + 'px';
-      zemuWidget.style.top = rect.top + 'px';
-      zemuWidget.style.right = 'auto';
-      zemuWidget.style.bottom = 'auto';
-
-      offsetX = clientX - rect.left;
-      offsetY = clientY - rect.top;
-    }
-
-    function doDrag(clientX, clientY) {
-      if (!isDragging) return;
-      zemuWidget.style.left = (clientX - offsetX) + 'px';
-      zemuWidget.style.top = (clientY - offsetY) + 'px';
-    }
-
-    function stopDrag() {
-      if (isDragging) {
-        isDragging = false;
-        zemuChar.style.cursor = 'grab';
-      }
-    }
-
-    // Mouse Olayları
-    zemuChar.addEventListener('mousedown', (e) => {
-      startDrag(e.clientX, e.clientY);
-    });
-
-    document.addEventListener('mousemove', (e) => {
-      if (!isDragging) return;
-      e.preventDefault();
-      doDrag(e.clientX, e.clientY);
-    });
-
-    document.addEventListener('mouseup', () => {
-      stopDrag();
-    });
-
-    // Dokunmatik Ekran (Mobil) Olayları
-    zemuChar.addEventListener('touchstart', (e) => {
-      if (e.touches.length > 0) {
-        e.preventDefault();
-        startDrag(e.touches[0].clientX, e.touches[0].clientY);
-      }
-    }, { passive: false });
-
-    document.addEventListener('touchmove', (e) => {
-      if (!isDragging) return;
-      if (e.touches.length > 0) {
-        e.preventDefault();
-        doDrag(e.touches[0].clientX, e.touches[0].clientY);
-      }
-    }, { passive: false });
-
-    document.addEventListener('touchend', () => {
-      stopDrag();
-    });
   </script>
 </body>
 </html>
